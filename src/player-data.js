@@ -2465,7 +2465,7 @@ const GMs = {
             wins: 7,
             losses: 14,
             playoffFinish: 0,
-            players: players2020.filter((el) => Status === 'Buckley')
+            players: players2020.filter((el) => el.Status === 'Buckley'),
         },
         championships:[],
         henicups:[2019]
@@ -2476,7 +2476,8 @@ const GMs = {
         s2020: {
             wins:11,
             losses: 10,
-            playoffFinish: 0
+            playoffFinish: 0,
+            players: players2020.filter((el) => el.Status === 'Erlandson'),
         },
         championships:[],
         henicups:[]
@@ -2486,7 +2487,8 @@ const GMs = {
         s2020: {
             wins: 12,
             losses: 9,
-            playoffFinish: 0
+            playoffFinish: 0,
+            players: players2020.filter((el) => el.Status === 'Larsen')
         },
         championships:[],
         henicups:[]
@@ -2496,7 +2498,8 @@ const GMs = {
         s2020: {
             wins: 10,
             losses: 11,
-            playoffFinish: 0
+            playoffFinish: 0,
+            players: players2020.filter((el) => el.Status === 'Le Fevre')
         },
         championships:[],
         henicups:[2013,2014,2016]
@@ -2506,7 +2509,8 @@ const GMs = {
         s2020: {
             wins: 7,
             losses: 14,
-            playoffFinish: 0
+            playoffFinish: 0,
+            players: players2020.filter((el) => el.Status === 'Leis')
         },
         championships:[],
         henicups:[2018]
@@ -2516,7 +2520,8 @@ const GMs = {
         s2020: {
             wins: 15,
             losses: 6,
-            playoffFinish: 0
+            playoffFinish: 0,
+            players: players2020.filter((el) => el.Status === 'Mann')
         },
         championships:[2018,2019],
         henicups:[]
@@ -2526,7 +2531,8 @@ const GMs = {
         s2020: {
             wins: 7,
             losses: 14,
-            playoffFinish: 0
+            playoffFinish: 0,
+            players: players2020.filter((el) => el.Status === 'Scheuermann')
         },
         championships:[2017],
         henicups:[]
@@ -2536,7 +2542,8 @@ const GMs = {
         s2020: {
             wins: 9,
             losses: 12,
-            playoffFinish: 0
+            playoffFinish: 0,
+            players: players2020.filter((el) => el.Status === 'Snyder')
         },
         championships:[],
         henicups:[]
@@ -2546,7 +2553,8 @@ const GMs = {
         s2020: {
             wins: 7,
             losses: 14,
-            playoffFinish: 0
+            playoffFinish: 0,
+            players: players2020.filter((el) => el.Status === 'Varley Jr.')
         },
         championships:[2014, 2015, 2016],
         henicups:[]
@@ -2556,12 +2564,11 @@ const GMs = {
         s2020: {
             wins: 7,
             losses: 14,
-            playoffFinish: 0
+            playoffFinish: 0,
+            players: players2020.filter((el) => el.Status === 'Varley Sr.')
         },
         championships:[],
-        henicups:[],
-        playoffFinish: 0
+        henicups:[]
     }
 }
 
-console.log(GMs.Buckley)
