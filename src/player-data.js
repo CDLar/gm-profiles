@@ -6,11 +6,7 @@ const players2020 = [
       "Rk": 1,
       "Status": "Le Fevre",
       "FPts": 386.2,
-      "FP/G": 5.52,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 5.52
     },
     {
       "Name": "Leon Draisaitl",
@@ -19,11 +15,7 @@ const players2020 = [
       "Rk": 2,
       "Status": "Snyder",
       "FPts": 385.2,
-      "FP/G": 5.43,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 5.43
     },
     {
       "Name": "John Carlson",
@@ -32,11 +24,7 @@ const players2020 = [
       "Rk": 3,
       "Status": "Le Fevre",
       "FPts": 357.4,
-      "FP/G": 5.18,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 5.18
     },
     {
       "Name": "Nathan MacKinnon",
@@ -45,11 +33,7 @@ const players2020 = [
       "Rk": 4,
       "Status": "KV",
       "FPts": 348.8,
-      "FP/G": 5.06,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 5.06
     },
     {
       "Name": "Connor McDavid",
@@ -58,11 +42,7 @@ const players2020 = [
       "Rk": 5,
       "Status": "Leis",
       "FPts": 344.8,
-      "FP/G": 5.39,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 5.39
     },
     {
       "Name": "Auston Matthews",
@@ -71,11 +51,7 @@ const players2020 = [
       "Rk": 6,
       "Status": "Buckley",
       "FPts": 338.8,
-      "FP/G": 4.84,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.84
     },
     {
       "Name": "Roman Josi",
@@ -84,11 +60,7 @@ const players2020 = [
       "Rk": 7,
       "Status": "Scheuermann",
       "FPts": 333,
-      "FP/G": 4.83,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.83
     },
     {
       "Name": "Connor Hellebuyck",
@@ -97,11 +69,7 @@ const players2020 = [
       "Rk": 8,
       "Status": "Scheuermann",
       "FPts": 328.2,
-      "FP/G": 5.66,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 5.66
     },
     {
       "Name": "Alex Ovechkin",
@@ -110,11 +78,7 @@ const players2020 = [
       "Rk": 9,
       "Status": "Snyder",
       "FPts": 326.6,
-      "FP/G": 4.8,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.8
     },
     {
       "Name": "Mika Zibanejad",
@@ -123,11 +87,7 @@ const players2020 = [
       "Rk": 10,
       "Status": "Scheuermann",
       "FPts": 324.2,
-      "FP/G": 5.69,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 5.69
     },
     {
       "Name": "Artemi Panarin",
@@ -136,11 +96,7 @@ const players2020 = [
       "Rk": 11,
       "Status": "Leis",
       "FPts": 318.2,
-      "FP/G": 4.61,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.61
     },
     {
       "Name": "Andrei Vasilevskiy",
@@ -149,11 +105,7 @@ const players2020 = [
       "Rk": 12,
       "Status": "Larsen",
       "FPts": 317.5,
-      "FP/G": 6.11,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 6.11
     },
     {
       "Name": "Jack Eichel",
@@ -162,11 +114,7 @@ const players2020 = [
       "Rk": 13,
       "Status": "Scheuermann",
       "FPts": 314.2,
-      "FP/G": 4.62,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.62
     },
     {
       "Name": "Brad Marchand",
@@ -175,11 +123,7 @@ const players2020 = [
       "Rk": 14,
       "Status": "Erlandson",
       "FPts": 309.6,
-      "FP/G": 4.42,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.42
     },
     {
       "Name": "Nikita Kucherov",
@@ -188,11 +132,7 @@ const players2020 = [
       "Rk": 15,
       "Status": "Le Fevre",
       "FPts": 302.2,
-      "FP/G": 4.44,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.44
     },
     {
       "Name": "Patrick Kane",
@@ -201,11 +141,7 @@ const players2020 = [
       "Rk": 16,
       "Status": "Mann",
       "FPts": 300,
-      "FP/G": 4.29,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.29
     },
     {
       "Name": "Max Pacioretty",
@@ -214,11 +150,7 @@ const players2020 = [
       "Rk": 17,
       "Status": "Buckley",
       "FPts": 290,
-      "FP/G": 4.08,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.08
     },
     {
       "Name": "Alex Pietrangelo",
@@ -227,11 +159,7 @@ const players2020 = [
       "Rk": 18,
       "Status": "Mann",
       "FPts": 284.8,
-      "FP/G": 4.07,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.07
     },
     {
       "Name": "Victor Hedman",
@@ -240,11 +168,7 @@ const players2020 = [
       "Rk": 19,
       "Status": "KV",
       "FPts": 283.2,
-      "FP/G": 4.29,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.29
     },
     {
       "Name": "J.T. Miller",
@@ -253,11 +177,7 @@ const players2020 = [
       "Rk": 20,
       "Status": "Larsen",
       "FPts": 283,
-      "FP/G": 4.1,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.1
     },
     {
       "Name": "Kyle Connor",
@@ -266,11 +186,7 @@ const players2020 = [
       "Rk": 21,
       "Status": 'Sunny',
       "FPts": 283,
-      "FP/G": 3.99,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.99
     },
     {
       "Name": "Sebastian Aho",
@@ -279,11 +195,7 @@ const players2020 = [
       "Rk": 22,
       "Status": "Larsen",
       "FPts": 277.2,
-      "FP/G": 4.08,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.08
     },
     {
       "Name": "Mark Scheifele",
@@ -292,11 +204,7 @@ const players2020 = [
       "Rk": 23,
       "Status": "Mann",
       "FPts": 270.8,
-      "FP/G": 3.81,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.81
     },
     {
       "Name": "Jonathan Huberdeau",
@@ -305,11 +213,7 @@ const players2020 = [
       "Rk": 24,
       "Status": "Mann",
       "FPts": 266,
-      "FP/G": 3.86,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.86
     },
     {
       "Name": "Tuukka Rask",
@@ -318,11 +222,7 @@ const players2020 = [
       "Rk": 25,
       "Status": "Le Fevre",
       "FPts": 261.3,
-      "FP/G": 6.37,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 6.37
     },
     {
       "Name": "Brent Burns",
@@ -331,11 +231,7 @@ const players2020 = [
       "Rk": 26,
       "Status": "Erlandson",
       "FPts": 261,
-      "FP/G": 3.73,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.73
     },
     {
       "Name": "Blake Wheeler",
@@ -344,11 +240,7 @@ const players2020 = [
       "Rk": 27,
       "Status": "Larsen",
       "FPts": 261,
-      "FP/G": 3.68,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.68
     },
     {
       "Name": "Neal Pionk",
@@ -357,11 +249,7 @@ const players2020 = [
       "Rk": 28,
       "Status": "Le Fevre",
       "FPts": 260.6,
-      "FP/G": 3.67,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.67
     },
     {
       "Name": "Jordan Binnington",
@@ -370,11 +258,7 @@ const players2020 = [
       "Rk": 29,
       "Status": "Leis",
       "FPts": 259,
-      "FP/G": 5.18,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 5.18
     },
     {
       "Name": "Steven Stamkos",
@@ -383,11 +267,7 @@ const players2020 = [
       "Rk": 30,
       "Status": "Buckley",
       "FPts": 259,
-      "FP/G": 4.54,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.54
     },
     {
       "Name": "Evgeni Malkin",
@@ -396,11 +276,7 @@ const players2020 = [
       "Rk": 31,
       "Status": "Mann",
       "FPts": 259,
-      "FP/G": 4.71,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.71
     },
     {
       "Name": "Elias Pettersson",
@@ -409,11 +285,7 @@ const players2020 = [
       "Rk": 32,
       "Status": "Leis",
       "FPts": 258,
-      "FP/G": 3.79,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.79
     },
     {
       "Name": "Carey Price",
@@ -422,11 +294,7 @@ const players2020 = [
       "Rk": 33,
       "Status": 'Sunny',
       "FPts": 258,
-      "FP/G": 4.45,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.45
     },
     {
       "Name": "Tony DeAngelo",
@@ -435,11 +303,7 @@ const players2020 = [
       "Rk": 34,
       "Status": "Scheuermann",
       "FPts": 256,
-      "FP/G": 3.76,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.76
     },
     {
       "Name": "Patrik Laine",
@@ -448,11 +312,7 @@ const players2020 = [
       "Rk": 35,
       "Status": "Leis",
       "FPts": 255.2,
-      "FP/G": 3.75,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.75
     },
     {
       "Name": "Frederik Andersen",
@@ -461,11 +321,7 @@ const players2020 = [
       "Rk": 36,
       "Status": 'Sunny',
       "FPts": 254.9,
-      "FP/G": 4.9,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.9
     },
     {
       "Name": "Patrice Bergeron",
@@ -474,11 +330,7 @@ const players2020 = [
       "Rk": 37,
       "Status": "Mann",
       "FPts": 251.8,
-      "FP/G": 4.13,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.13
     },
     {
       "Name": "Brady Tkachuk",
@@ -487,11 +339,7 @@ const players2020 = [
       "Rk": 38,
       "Status": "Scheuermann",
       "FPts": 249.8,
-      "FP/G": 3.52,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.52
     },
     {
       "Name": "Kris Letang",
@@ -500,11 +348,7 @@ const players2020 = [
       "Rk": 39,
       "Status": "KV",
       "FPts": 249.2,
-      "FP/G": 4.09,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.09
     },
     {
       "Name": "Andrei Svechnikov",
@@ -513,11 +357,7 @@ const players2020 = [
       "Rk": 40,
       "Status": "Mann",
       "FPts": 248.4,
-      "FP/G": 3.65,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.65
     },
     {
       "Name": "David Perron",
@@ -526,11 +366,7 @@ const players2020 = [
       "Rk": 41,
       "Status": "Le Fevre",
       "FPts": 247.6,
-      "FP/G": 3.49,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.49
     },
     {
       "Name": "Shea Theodore",
@@ -539,11 +375,7 @@ const players2020 = [
       "Rk": 42,
       "Status": "Buckley",
       "FPts": 246.6,
-      "FP/G": 3.47,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.47
     },
     {
       "Name": "Matthew Tkachuk",
@@ -552,11 +384,7 @@ const players2020 = [
       "Rk": 43,
       "Status": "Scheuermann",
       "FPts": 241.8,
-      "FP/G": 3.5,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.5
     },
     {
       "Name": "Mark Stone",
@@ -565,11 +393,7 @@ const players2020 = [
       "Rk": 44,
       "Status": "Erlandson",
       "FPts": 241.2,
-      "FP/G": 3.71,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.71
     },
     {
       "Name": "Jeff Petry",
@@ -578,11 +402,7 @@ const players2020 = [
       "Rk": 45,
       "Status": "Erlandson",
       "FPts": 240.6,
-      "FP/G": 3.39,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.39
     },
     {
       "Name": "Evander Kane",
@@ -591,11 +411,7 @@ const players2020 = [
       "Rk": 46,
       "Status": "KV",
       "FPts": 239.8,
-      "FP/G": 3.75,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.75
     },
     {
       "Name": "Anze Kopitar",
@@ -604,11 +420,7 @@ const players2020 = [
       "Rk": 47,
       "Status": "Buckley",
       "FPts": 239.4,
-      "FP/G": 3.42,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.42
     },
     {
       "Name": "Elias Lindholm",
@@ -617,11 +429,7 @@ const players2020 = [
       "Rk": 48,
       "Status": "Le Fevre",
       "FPts": 237.2,
-      "FP/G": 3.39,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.39
     },
     {
       "Name": "Torey Krug",
@@ -630,11 +438,7 @@ const players2020 = [
       "Rk": 49,
       "Status": "Scheuermann",
       "FPts": 236.6,
-      "FP/G": 3.88,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.88
     },
     {
       "Name": "Tom Wilson",
@@ -643,11 +447,7 @@ const players2020 = [
       "Rk": 50,
       "Status": "Snyder",
       "FPts": 236,
-      "FP/G": 3.47,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.47
     },
     {
       "Name": "Ryan Nugent-Hopkins",
@@ -656,11 +456,7 @@ const players2020 = [
       "Rk": 51,
       "Status": "Larsen",
       "FPts": 234.8,
-      "FP/G": 3.61,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.61
     },
     {
       "Name": "Shea Weber",
@@ -669,11 +465,7 @@ const players2020 = [
       "Rk": 52,
       "Status": "Buckley",
       "FPts": 234.4,
-      "FP/G": 3.61,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.61
     },
     {
       "Name": "Mike Hoffman",
@@ -682,11 +474,7 @@ const players2020 = [
       "Rk": 53,
       "Status": "Le Fevre",
       "FPts": 234.2,
-      "FP/G": 3.39,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.39
     },
     {
       "Name": "Bryan Rust",
@@ -695,11 +483,7 @@ const players2020 = [
       "Rk": 54,
       "Status": "Erlandson",
       "FPts": 234.2,
-      "FP/G": 4.26,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.26
     },
     {
       "Name": "Ryan Pulock",
@@ -708,11 +492,7 @@ const players2020 = [
       "Rk": 55,
       "Status": "Le Fevre",
       "FPts": 233.8,
-      "FP/G": 3.44,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.44
     },
     {
       "Name": "Cale Makar",
@@ -721,11 +501,7 @@ const players2020 = [
       "Rk": 56,
       "Status": "Leis",
       "FPts": 233.4,
-      "FP/G": 4.09,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.09
     },
     {
       "Name": "Mitchell Marner",
@@ -734,11 +510,7 @@ const players2020 = [
       "Rk": 57,
       "Status": "Snyder",
       "FPts": 232.6,
-      "FP/G": 3.94,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.94
     },
     {
       "Name": "Jacob Markstrom",
@@ -747,11 +519,7 @@ const players2020 = [
       "Rk": 58,
       "Status": "Erlandson",
       "FPts": 232.5,
-      "FP/G": 5.41,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 5.41
     },
     {
       "Name": "Ivan Provorov",
@@ -760,11 +528,7 @@ const players2020 = [
       "Rk": 59,
       "Status": "Erlandson",
       "FPts": 232.2,
-      "FP/G": 3.37,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.37
     },
     {
       "Name": "Ryan Suter",
@@ -773,11 +537,7 @@ const players2020 = [
       "Rk": 60,
       "Status": "Erlandson",
       "FPts": 232.2,
-      "FP/G": 3.37,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.37
     },
     {
       "Name": "Teuvo Teravainen",
@@ -786,11 +546,7 @@ const players2020 = [
       "Rk": 61,
       "Status": "Leis",
       "FPts": 232,
-      "FP/G": 3.41,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.41
     },
     {
       "Name": "John Tavares",
@@ -799,11 +555,7 @@ const players2020 = [
       "Rk": 62,
       "Status": "KV",
       "FPts": 231.8,
-      "FP/G": 3.68,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.68
     },
     {
       "Name": "Zach Werenski",
@@ -812,11 +564,7 @@ const players2020 = [
       "Rk": 63,
       "Status": "KV",
       "FPts": 231.4,
-      "FP/G": 3.67,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.67
     },
     {
       "Name": "Brayden Schenn",
@@ -825,11 +573,7 @@ const players2020 = [
       "Rk": 64,
       "Status": "Leis",
       "FPts": 230.4,
-      "FP/G": 3.25,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.25
     },
     {
       "Name": "Marc-Andre Fleury",
@@ -838,11 +582,7 @@ const players2020 = [
       "Rk": 65,
       "Status": "Leis",
       "FPts": 230.3,
-      "FP/G": 4.7,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.7
     },
     {
       "Name": "Darnell Nurse",
@@ -851,11 +591,7 @@ const players2020 = [
       "Rk": 66,
       "Status": "Leis",
       "FPts": 228.8,
-      "FP/G": 3.22,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.22
     },
     {
       "Name": "Jean-Gabriel Pageau",
@@ -864,11 +600,7 @@ const players2020 = [
       "Rk": 67,
       "Status": "Snyder",
       "FPts": 228.8,
-      "FP/G": 3.41,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.41
     },
     {
       "Name": "Quinn Hughes",
@@ -877,11 +609,7 @@ const players2020 = [
       "Rk": 68,
       "Status": 'Sunny',
       "FPts": 228.4,
-      "FP/G": 3.36,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.36
     },
     {
       "Name": "Travis Konecny",
@@ -890,11 +618,7 @@ const players2020 = [
       "Rk": 69,
       "Status": "Larsen",
       "FPts": 227.6,
-      "FP/G": 3.45,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.45
     },
     {
       "Name": "Oscar Klefbom",
@@ -903,11 +627,7 @@ const players2020 = [
       "Rk": 70,
       "Status": 'Sunny',
       "FPts": 227.6,
-      "FP/G": 3.67,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.67
     },
     {
       "Name": "William Nylander",
@@ -916,11 +636,7 @@ const players2020 = [
       "Rk": 71,
       "Status": "KV",
       "FPts": 226.4,
-      "FP/G": 3.33,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.33
     },
     {
       "Name": "Sean Couturier",
@@ -929,11 +645,7 @@ const players2020 = [
       "Rk": 72,
       "Status": "Larsen",
       "FPts": 224.6,
-      "FP/G": 3.26,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.26
     },
     {
       "Name": "Brayden Point",
@@ -942,11 +654,7 @@ const players2020 = [
       "Rk": 73,
       "Status": "Snyder",
       "FPts": 224.6,
-      "FP/G": 3.4,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.4
     },
     {
       "Name": "Reilly Smith",
@@ -955,11 +663,7 @@ const players2020 = [
       "Rk": 74,
       "Status": "Buckley",
       "FPts": 224.2,
-      "FP/G": 3.16,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.16
     },
     {
       "Name": "Aleksander Barkov",
@@ -968,11 +672,7 @@ const players2020 = [
       "Rk": 75,
       "Status": "Scheuermann",
       "FPts": 224,
-      "FP/G": 3.39,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.39
     },
     {
       "Name": "Tyler Seguin",
@@ -981,11 +681,7 @@ const players2020 = [
       "Rk": 76,
       "Status": "KV",
       "FPts": 223,
-      "FP/G": 3.23,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.23
     },
     {
       "Name": "Dougie Hamilton",
@@ -994,11 +690,7 @@ const players2020 = [
       "Rk": 77,
       "Status": "Larsen",
       "FPts": 222.6,
-      "FP/G": 4.74,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.74
     },
     {
       "Name": "Claude Giroux",
@@ -1007,11 +699,7 @@ const players2020 = [
       "Rk": 78,
       "Status": "Buckley",
       "FPts": 221.2,
-      "FP/G": 3.21,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.21
     },
     {
       "Name": "Bo Horvat",
@@ -1020,11 +708,7 @@ const players2020 = [
       "Rk": 79,
       "Status": "Snyder",
       "FPts": 221,
-      "FP/G": 3.2,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.2
     },
     {
       "Name": "Nikolaj Ehlers",
@@ -1033,11 +717,7 @@ const players2020 = [
       "Rk": 80,
       "Status": "Erlandson",
       "FPts": 220.8,
-      "FP/G": 3.11,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.11
     },
     {
       "Name": "Jaden Schwartz",
@@ -1046,11 +726,7 @@ const players2020 = [
       "Rk": 81,
       "Status": 'Sunny',
       "FPts": 220.2,
-      "FP/G": 3.1,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.1
     },
     {
       "Name": "Adam Fox",
@@ -1059,11 +735,7 @@ const players2020 = [
       "Rk": 82,
       "Status": "Le Fevre",
       "FPts": 219.8,
-      "FP/G": 3.14,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.14
     },
     {
       "Name": "Ben Bishop",
@@ -1072,11 +744,7 @@ const players2020 = [
       "Rk": 83,
       "Status": "Buckley",
       "FPts": 219.7,
-      "FP/G": 4.99,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.99
     },
     {
       "Name": "Alexander Edler",
@@ -1085,11 +753,7 @@ const players2020 = [
       "Rk": 84,
       "Status": "Le Fevre",
       "FPts": 219,
-      "FP/G": 3.71,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.71
     },
     {
       "Name": "Tomas Tatar",
@@ -1098,11 +762,7 @@ const players2020 = [
       "Rk": 85,
       "Status": 'Sunny',
       "FPts": 218.8,
-      "FP/G": 3.22,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.22
     },
     {
       "Name": "Ryan Strome",
@@ -1111,11 +771,7 @@ const players2020 = [
       "Rk": 86,
       "Status": "KV",
       "FPts": 218.8,
-      "FP/G": 3.13,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.13
     },
     {
       "Name": "David Rittich",
@@ -1124,11 +780,7 @@ const players2020 = [
       "Rk": 87,
       "Status": "Leis",
       "FPts": 217.6,
-      "FP/G": 4.53,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.53
     },
     {
       "Name": "Timo Meier",
@@ -1137,11 +789,7 @@ const players2020 = [
       "Rk": 88,
       "Status": "Le Fevre",
       "FPts": 217.6,
-      "FP/G": 3.11,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.11
     },
     {
       "Name": "Jacob Trouba",
@@ -1150,11 +798,7 @@ const players2020 = [
       "Rk": 89,
       "Status": "Erlandson",
       "FPts": 215.6,
-      "FP/G": 3.08,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.08
     },
     {
       "Name": "Brock Nelson",
@@ -1163,11 +807,7 @@ const players2020 = [
       "Rk": 90,
       "Status": "Scheuermann",
       "FPts": 214.6,
-      "FP/G": 3.16,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.16
     },
     {
       "Name": "T.J. Oshie",
@@ -1176,11 +816,7 @@ const players2020 = [
       "Rk": 91,
       "Status": "Buckley",
       "FPts": 212.6,
-      "FP/G": 3.08,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.08
     },
     {
       "Name": "Mathew Barzal",
@@ -1189,11 +825,7 @@ const players2020 = [
       "Rk": 92,
       "Status": 'Sunny',
       "FPts": 211.8,
-      "FP/G": 3.11,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.11
     },
     {
       "Name": "Jamie Benn",
@@ -1202,11 +834,7 @@ const players2020 = [
       "Rk": 93,
       "Status": "Erlandson",
       "FPts": 210,
-      "FP/G": 3.04,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.04
     },
     {
       "Name": "Jonathan Marchessault",
@@ -1215,11 +843,7 @@ const players2020 = [
       "Rk": 94,
       "Status": "Le Fevre",
       "FPts": 209.8,
-      "FP/G": 3.18,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.18
     },
     {
       "Name": "Thomas Chabot",
@@ -1228,11 +852,7 @@ const players2020 = [
       "Rk": 95,
       "Status": 'Sunny',
       "FPts": 209.6,
-      "FP/G": 2.95,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.95
     },
     {
       "Name": "Rasmus Ristolainen",
@@ -1241,11 +861,7 @@ const players2020 = [
       "Rk": 96,
       "Status": "Larsen",
       "FPts": 209,
-      "FP/G": 3.03,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.03
     },
     {
       "Name": "Mikhail Sergachev",
@@ -1254,11 +870,7 @@ const players2020 = [
       "Rk": 97,
       "Status": "Buckley",
       "FPts": 208.6,
-      "FP/G": 2.98,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.98
     },
     {
       "Name": "Mark Giordano",
@@ -1267,11 +879,7 @@ const players2020 = [
       "Rk": 98,
       "Status": 'Sunny',
       "FPts": 208.2,
-      "FP/G": 3.47,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.47
     },
     {
       "Name": "Dylan Larkin",
@@ -1280,11 +888,7 @@ const players2020 = [
       "Rk": 99,
       "Status": "Scheuermann",
       "FPts": 207.8,
-      "FP/G": 2.93,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.93
     },
     {
       "Name": "Drew Doughty",
@@ -1293,11 +897,7 @@ const players2020 = [
       "Rk": 100,
       "Status": "KV",
       "FPts": 207,
-      "FP/G": 3.09,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.09
     },
     {
       "Name": "Ryan O'Reilly",
@@ -1306,11 +906,7 @@ const players2020 = [
       "Rk": 101,
       "Status": "Larsen",
       "FPts": 206.8,
-      "FP/G": 2.91,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.91
     },
     {
       "Name": "Jakub Vrana",
@@ -1319,11 +915,7 @@ const players2020 = [
       "Rk": 102,
       "Status": 'Sunny',
       "FPts": 206.2,
-      "FP/G": 2.99,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.99
     },
     {
       "Name": "Anders Lee",
@@ -1332,11 +924,7 @@ const players2020 = [
       "Rk": 103,
       "Status": "Mann",
       "FPts": 206,
-      "FP/G": 3.03,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.03
     },
     {
       "Name": "Jaccob Slavin",
@@ -1345,11 +933,7 @@ const players2020 = [
       "Rk": 104,
       "Status": "Scheuermann",
       "FPts": 205.2,
-      "FP/G": 3.02,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.02
     },
     {
       "Name": "Ryan Graves",
@@ -1358,11 +942,7 @@ const players2020 = [
       "Rk": 105,
       "Status": "Snyder",
       "FPts": 205,
-      "FP/G": 2.97,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.97
     },
     {
       "Name": "Taylor Hall",
@@ -1371,11 +951,7 @@ const players2020 = [
       "Rk": 106,
       "Status": "Erlandson",
       "FPts": 204.6,
-      "FP/G": 3.15,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.15
     },
     {
       "Name": "Kevin Fiala",
@@ -1384,11 +960,7 @@ const players2020 = [
       "Rk": 107,
       "Status": "Mann",
       "FPts": 204,
-      "FP/G": 3.19,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.19
     },
     {
       "Name": "Blake Coleman",
@@ -1397,11 +969,7 @@ const players2020 = [
       "Rk": 108,
       "Status": 'Sunny',
       "FPts": 203.6,
-      "FP/G": 3.08,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.08
     },
     {
       "Name": "Ryan Ellis",
@@ -1410,11 +978,7 @@ const players2020 = [
       "Rk": 109,
       "Status": "Leis",
       "FPts": 203.4,
-      "FP/G": 4.15,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.15
     },
     {
       "Name": "Tanner Pearson",
@@ -1423,11 +987,7 @@ const players2020 = [
       "Rk": 110,
       "Status": "Buckley",
       "FPts": 203.2,
-      "FP/G": 2.94,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.94
     },
     {
       "Name": "Matt Niskanen",
@@ -1436,11 +996,7 @@ const players2020 = [
       "Rk": 111,
       "Status": "Buckley",
       "FPts": 203,
-      "FP/G": 2.99,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.99
     },
     {
       "Name": "Aaron Ekblad",
@@ -1449,11 +1005,7 @@ const players2020 = [
       "Rk": 112,
       "Status": "Scheuermann",
       "FPts": 203,
-      "FP/G": 3.03,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.03
     },
     {
       "Name": "Pierre-Luc Dubois",
@@ -1462,11 +1014,7 @@ const players2020 = [
       "Rk": 113,
       "Status": "Snyder",
       "FPts": 202.2,
-      "FP/G": 2.89,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.89
     },
     {
       "Name": "Keith Yandle",
@@ -1475,11 +1023,7 @@ const players2020 = [
       "Rk": 114,
       "Status": "Larsen",
       "FPts": 201.8,
-      "FP/G": 2.92,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.92
     },
     {
       "Name": "Kyle Palmieri",
@@ -1488,11 +1032,7 @@ const players2020 = [
       "Rk": 115,
       "Status": "Larsen",
       "FPts": 201.4,
-      "FP/G": 3.1,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.1
     },
     {
       "Name": "Carter Hart",
@@ -1501,11 +1041,7 @@ const players2020 = [
       "Rk": 116,
       "Status": "Mann",
       "FPts": 200.5,
-      "FP/G": 4.66,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.66
     },
     {
       "Name": "Filip Forsberg",
@@ -1514,11 +1050,7 @@ const players2020 = [
       "Rk": 117,
       "Status": "KV",
       "FPts": 200.4,
-      "FP/G": 3.18,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.18
     },
     {
       "Name": "Johnny Gaudreau",
@@ -1527,11 +1059,7 @@ const players2020 = [
       "Rk": 118,
       "Status": "Erlandson",
       "FPts": 200.4,
-      "FP/G": 2.86,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.86
     },
     {
       "Name": "Alex Killorn",
@@ -1540,11 +1068,7 @@ const players2020 = [
       "Rk": 119,
       "Status": 'Sunny',
       "FPts": 198.6,
-      "FP/G": 2.92,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.92
     },
     {
       "Name": "Tyson Barrie",
@@ -1553,11 +1077,7 @@ const players2020 = [
       "Rk": 120,
       "Status": "Buckley",
       "FPts": 198.4,
-      "FP/G": 2.83,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.83
     },
     {
       "Name": "Ondrej Palat",
@@ -1566,11 +1086,7 @@ const players2020 = [
       "Rk": 121,
       "Status": "Le Fevre",
       "FPts": 198,
-      "FP/G": 2.87,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.87
     },
     {
       "Name": "Jared Spurgeon",
@@ -1579,11 +1095,7 @@ const players2020 = [
       "Rk": 122,
       "Status": "KV",
       "FPts": 196.8,
-      "FP/G": 3.17,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.17
     },
     {
       "Name": "Robin Lehner",
@@ -1592,11 +1104,7 @@ const players2020 = [
       "Rk": 123,
       "Status": "Le Fevre",
       "FPts": 196.5,
-      "FP/G": 5.46,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 5.46
     },
     {
       "Name": "Sean Monahan",
@@ -1605,11 +1113,7 @@ const players2020 = [
       "Rk": 124,
       "Status": 'Sunny',
       "FPts": 195.8,
-      "FP/G": 2.8,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.8
     },
     {
       "Name": "Mattias Ekholm",
@@ -1618,11 +1122,7 @@ const players2020 = [
       "Rk": 125,
       "Status": "Leis",
       "FPts": 195.8,
-      "FP/G": 2.88,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.88
     },
     {
       "Name": "Zach Parise",
@@ -1631,11 +1131,7 @@ const players2020 = [
       "Rk": 126,
       "Status": "Buckley",
       "FPts": 195.4,
-      "FP/G": 2.83,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.83
     },
     {
       "Name": "Sergei Bobrovsky",
@@ -1644,11 +1140,7 @@ const players2020 = [
       "Rk": 127,
       "Status": "Larsen",
       "FPts": 192.5,
-      "FP/G": 3.85,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.85
     },
     {
       "Name": "Braden Holtby",
@@ -1657,11 +1149,7 @@ const players2020 = [
       "Rk": 128,
       "Status": "KV",
       "FPts": 192,
-      "FP/G": 4,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4
     },
     {
       "Name": "Gabriel Landeskog",
@@ -1670,11 +1158,7 @@ const players2020 = [
       "Rk": 129,
       "Status": "Erlandson",
       "FPts": 191.8,
-      "FP/G": 3.55,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.55
     },
     {
       "Name": "Pavel Francouz",
@@ -1683,11 +1167,7 @@ const players2020 = [
       "Rk": 130,
       "Status": "Erlandson",
       "FPts": 191.7,
-      "FP/G": 5.64,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 5.64
     },
     {
       "Name": "Semyon Varlamov",
@@ -1696,11 +1176,7 @@ const players2020 = [
       "Rk": 131,
       "Status": "Le Fevre",
       "FPts": 191.6,
-      "FP/G": 4.26,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.26
     },
     {
       "Name": "Alex DeBrincat",
@@ -1709,11 +1185,7 @@ const players2020 = [
       "Rk": 132,
       "Status": "Leis",
       "FPts": 190.6,
-      "FP/G": 2.72,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.72
     },
     {
       "Name": "Miro Heiskanen",
@@ -1722,11 +1194,7 @@ const players2020 = [
       "Rk": 133,
       "Status": "Snyder",
       "FPts": 190,
-      "FP/G": 2.79,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.79
     },
     {
       "Name": "John Gibson",
@@ -1735,11 +1203,7 @@ const players2020 = [
       "Rk": 134,
       "Status": "Larsen",
       "FPts": 189.9,
-      "FP/G": 3.72,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.72
     },
     {
       "Name": "Tyler Toffoli",
@@ -1748,11 +1212,7 @@ const players2020 = [
       "Rk": 135,
       "Status": "Larsen",
       "FPts": 189.4,
-      "FP/G": 2.79,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.79
     },
     {
       "Name": "Anthony Cirelli",
@@ -1761,11 +1221,7 @@ const players2020 = [
       "Rk": 136,
       "Status": 'Sunny',
       "FPts": 188.8,
-      "FP/G": 2.78,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.78
     },
     {
       "Name": "Rasmus Dahlin",
@@ -1774,11 +1230,7 @@ const players2020 = [
       "Rk": 137,
       "Status": "Scheuermann",
       "FPts": 188.4,
-      "FP/G": 3.19,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.19
     },
     {
       "Name": "Nicklas Backstrom",
@@ -1787,11 +1239,7 @@ const players2020 = [
       "Rk": 138,
       "Status": "Buckley",
       "FPts": 188.2,
-      "FP/G": 3.09,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.09
     },
     {
       "Name": "Jakub Voracek",
@@ -1800,11 +1248,7 @@ const players2020 = [
       "Rk": 139,
       "Status": "KV",
       "FPts": 188,
-      "FP/G": 2.72,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.72
     },
     {
       "Name": "William Karlsson",
@@ -1813,11 +1257,7 @@ const players2020 = [
       "Rk": 140,
       "Status": "Scheuermann",
       "FPts": 188,
-      "FP/G": 2.98,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.98
     },
     {
       "Name": "Evgenii Dadonov",
@@ -1826,11 +1266,7 @@ const players2020 = [
       "Rk": 141,
       "Status": "Leis",
       "FPts": 187.4,
-      "FP/G": 2.72,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.72
     },
     {
       "Name": "Rickard Rakell",
@@ -1839,11 +1275,7 @@ const players2020 = [
       "Rk": 142,
       "Status": "Larsen",
       "FPts": 185,
-      "FP/G": 2.85,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.85
     },
     {
       "Name": "Brendan Gallagher",
@@ -1852,11 +1284,7 @@ const players2020 = [
       "Rk": 143,
       "Status": "Larsen",
       "FPts": 184.2,
-      "FP/G": 3.12,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.12
     },
     {
       "Name": "Oliver Ekman-Larsson",
@@ -1865,11 +1293,7 @@ const players2020 = [
       "Rk": 144,
       "Status": "Snyder",
       "FPts": 183.2,
-      "FP/G": 2.78,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.78
     },
     {
       "Name": "Damon Severson",
@@ -1878,11 +1302,7 @@ const players2020 = [
       "Rk": 145,
       "Status": "Mann",
       "FPts": 182.6,
-      "FP/G": 2.65,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.65
     },
     {
       "Name": "Sam Reinhart",
@@ -1891,11 +1311,7 @@ const players2020 = [
       "Rk": 146,
       "Status": "Le Fevre",
       "FPts": 181.8,
-      "FP/G": 2.63,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.63
     },
     {
       "Name": "Jakob Chychrun",
@@ -1904,11 +1320,7 @@ const players2020 = [
       "Rk": 147,
       "Status": "Le Fevre",
       "FPts": 180.4,
-      "FP/G": 2.86,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.86
     },
     {
       "Name": "Corey Crawford",
@@ -1917,11 +1329,7 @@ const players2020 = [
       "Rk": 148,
       "Status": "Mann",
       "FPts": 179.8,
-      "FP/G": 4.5,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.5
     },
     {
       "Name": "Kevin Shattenkirk",
@@ -1930,11 +1338,7 @@ const players2020 = [
       "Rk": 149,
       "Status": "Leis",
       "FPts": 179.6,
-      "FP/G": 2.57,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.57
     },
     {
       "Name": "Juuse Saros",
@@ -1943,11 +1347,7 @@ const players2020 = [
       "Rk": 150,
       "Status": "Erlandson",
       "FPts": 178.4,
-      "FP/G": 4.46,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.46
     },
     {
       "Name": "Petr Mrazek",
@@ -1956,11 +1356,7 @@ const players2020 = [
       "Rk": 151,
       "Status": 'Sunny',
       "FPts": 176.2,
-      "FP/G": 4.4,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.4
     },
     {
       "Name": "Brock Boeser",
@@ -1969,11 +1365,7 @@ const players2020 = [
       "Rk": 152,
       "Status": "Leis",
       "FPts": 174.8,
-      "FP/G": 3.07,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.07
     },
     {
       "Name": "Andre Burakovsky",
@@ -1982,11 +1374,7 @@ const players2020 = [
       "Rk": 153,
       "Status": 'Sunny',
       "FPts": 174.6,
-      "FP/G": 3.01,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.01
     },
     {
       "Name": "Philipp Grubauer",
@@ -1995,11 +1383,7 @@ const players2020 = [
       "Rk": 154,
       "Status": "KV",
       "FPts": 174.4,
-      "FP/G": 4.84,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.84
     },
     {
       "Name": "Evgeny Kuznetsov",
@@ -2008,11 +1392,7 @@ const players2020 = [
       "Rk": 155,
       "Status": "Snyder",
       "FPts": 173.8,
-      "FP/G": 2.76,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.76
     },
     {
       "Name": "Matt Dumba",
@@ -2021,11 +1401,7 @@ const players2020 = [
       "Rk": 156,
       "Status": "Mann",
       "FPts": 173,
-      "FP/G": 2.51,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.51
     },
     {
       "Name": "Joonas Korpisalo",
@@ -2034,11 +1410,7 @@ const players2020 = [
       "Rk": 157,
       "Status": "Snyder",
       "FPts": 172,
-      "FP/G": 4.65,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.65
     },
     {
       "Name": "John Klingberg",
@@ -2047,11 +1419,7 @@ const players2020 = [
       "Rk": 158,
       "Status": "Larsen",
       "FPts": 169.2,
-      "FP/G": 2.92,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.92
     },
     {
       "Name": "Darcy Kuemper",
@@ -2060,11 +1428,7 @@ const players2020 = [
       "Rk": 159,
       "Status": "Scheuermann",
       "FPts": 169.1,
-      "FP/G": 5.83,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 5.83
     },
     {
       "Name": "Clayton Keller",
@@ -2073,11 +1437,7 @@ const players2020 = [
       "Rk": 160,
       "Status": "Leis",
       "FPts": 168.8,
-      "FP/G": 2.41,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.41
     },
     {
       "Name": "Anthony Beauvillier",
@@ -2086,11 +1446,7 @@ const players2020 = [
       "Rk": 161,
       "Status": "KV",
       "FPts": 167.8,
-      "FP/G": 2.47,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.47
     },
     {
       "Name": "Sidney Crosby",
@@ -2099,11 +1455,7 @@ const players2020 = [
       "Rk": 162,
       "Status": "Scheuermann",
       "FPts": 167.6,
-      "FP/G": 4.09,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.09
     },
     {
       "Name": "Joel Armia",
@@ -2112,11 +1464,7 @@ const players2020 = [
       "Rk": 163,
       "Status": "Le Fevre",
       "FPts": 166.6,
-      "FP/G": 2.87,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.87
     },
     {
       "Name": "Patric Hornqvist",
@@ -2125,11 +1473,7 @@ const players2020 = [
       "Rk": 164,
       "Status": "KV",
       "FPts": 165.2,
-      "FP/G": 3.18,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.18
     },
     {
       "Name": "Duncan Keith",
@@ -2138,11 +1482,7 @@ const players2020 = [
       "Rk": 165,
       "Status": "Mann",
       "FPts": 164,
-      "FP/G": 2.69,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.69
     },
     {
       "Name": "Mikko Rantanen",
@@ -2151,11 +1491,7 @@ const players2020 = [
       "Rk": 166,
       "Status": "Larsen",
       "FPts": 163.8,
-      "FP/G": 3.9,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.9
     },
     {
       "Name": "Jason Zucker",
@@ -2164,11 +1500,7 @@ const players2020 = [
       "Rk": 167,
       "Status": "Scheuermann",
       "FPts": 163.2,
-      "FP/G": 2.72,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.72
     },
     {
       "Name": "Vincent Trocheck",
@@ -2177,11 +1509,7 @@ const players2020 = [
       "Rk": 168,
       "Status": "Scheuermann",
       "FPts": 162.6,
-      "FP/G": 2.62,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.62
     },
     {
       "Name": "Victor Olofsson",
@@ -2190,11 +1518,7 @@ const players2020 = [
       "Rk": 169,
       "Status": "Mann",
       "FPts": 162.6,
-      "FP/G": 3.01,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.01
     },
     {
       "Name": "Mike Smith",
@@ -2203,11 +1527,7 @@ const players2020 = [
       "Rk": 170,
       "Status": "Snyder",
       "FPts": 162.4,
-      "FP/G": 4.16,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.16
     },
     {
       "Name": "Jordan Eberle",
@@ -2216,11 +1536,7 @@ const players2020 = [
       "Rk": 171,
       "Status": "KV",
       "FPts": 162.4,
-      "FP/G": 2.8,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.8
     },
     {
       "Name": "David Krejci",
@@ -2229,11 +1545,7 @@ const players2020 = [
       "Rk": 172,
       "Status": "Snyder",
       "FPts": 158.6,
-      "FP/G": 2.6,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.6
     },
     {
       "Name": "Matt Murray",
@@ -2242,11 +1554,7 @@ const players2020 = [
       "Rk": 173,
       "Status": "Buckley",
       "FPts": 156.5,
-      "FP/G": 4.12,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.12
     },
     {
       "Name": "Anthony Mantha",
@@ -2255,11 +1563,7 @@ const players2020 = [
       "Rk": 174,
       "Status": "Erlandson",
       "FPts": 155.8,
-      "FP/G": 3.62,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.62
     },
     {
       "Name": "Jonathan Quick",
@@ -2268,11 +1572,7 @@ const players2020 = [
       "Rk": 175,
       "Status": "Buckley",
       "FPts": 155.3,
-      "FP/G": 3.7,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.7
     },
     {
       "Name": "Matt Duchene",
@@ -2281,11 +1581,7 @@ const players2020 = [
       "Rk": 176,
       "Status": "Snyder",
       "FPts": 153.2,
-      "FP/G": 2.32,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.32
     },
     {
       "Name": "Morgan Rielly",
@@ -2294,11 +1590,7 @@ const players2020 = [
       "Rk": 177,
       "Status": 'Sunny',
       "FPts": 149.8,
-      "FP/G": 3.19,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.19
     },
     {
       "Name": "Zach Hyman",
@@ -2307,11 +1599,7 @@ const players2020 = [
       "Rk": 178,
       "Status": "Erlandson",
       "FPts": 149.4,
-      "FP/G": 2.93,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.93
     },
     {
       "Name": "P.K. Subban",
@@ -2320,11 +1608,7 @@ const players2020 = [
       "Rk": 179,
       "Status": "Snyder",
       "FPts": 149,
-      "FP/G": 2.19,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.19
     },
     {
       "Name": "Sami Vatanen",
@@ -2333,11 +1617,7 @@ const players2020 = [
       "Rk": 180,
       "Status": "Mann",
       "FPts": 141,
-      "FP/G": 3,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3
     },
     {
       "Name": "Thomas Greiss",
@@ -2346,11 +1626,7 @@ const players2020 = [
       "Rk": 181,
       "Status": "Snyder",
       "FPts": 138.1,
-      "FP/G": 4.45,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.45
     },
     {
       "Name": "Alec Martinez",
@@ -2359,11 +1635,7 @@ const players2020 = [
       "Rk": 182,
       "Status": 'Sunny',
       "FPts": 121.4,
-      "FP/G": 2.38,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.38
     },
     {
       "Name": "Cam Atkinson",
@@ -2372,11 +1644,7 @@ const players2020 = [
       "Rk": 183,
       "Status": "Buckley",
       "FPts": 118,
-      "FP/G": 2.68,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 2.68
     },
     {
       "Name": "Thatcher Demko",
@@ -2385,11 +1653,7 @@ const players2020 = [
       "Rk": 184,
       "Status": "KV",
       "FPts": 112.4,
-      "FP/G": 4.16,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 4.16
     },
     {
       "Name": "Andreas Athanasiou",
@@ -2398,11 +1662,7 @@ const players2020 = [
       "Rk": 185,
       "Status": "Mann",
       "FPts": 107.4,
-      "FP/G": 1.95,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 1.95
     },
     {
       "Name": "Kailer Yamamoto",
@@ -2411,11 +1671,7 @@ const players2020 = [
       "Rk": 186,
       "Status": "Erlandson",
       "FPts": 91.4,
-      "FP/G": 3.39,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.39
     },
     {
       "Name": "Igor Shesterkin",
@@ -2424,11 +1680,7 @@ const players2020 = [
       "Rk": 187,
       "Status": "Mann",
       "FPts": 91.3,
-      "FP/G": 7.61,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 7.61
     },
     {
       "Name": "Vladimir Tarasenko",
@@ -2437,11 +1689,7 @@ const players2020 = [
       "Rk": 188,
       "Status": "Mann",
       "FPts": 37,
-      "FP/G": 3.7,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 3.7
     },
     {
       "Name": "Dustin Byfuglien",
@@ -2450,11 +1698,7 @@ const players2020 = [
       "Rk": 189,
       "Status": "Leis",
       "FPts": 0,
-      "FP/G": 0,
-      "": "",
-      "__1": "",
-      "__2": "",
-      "__3": ""
+      "FP/G": 0
     }
   ]
 
