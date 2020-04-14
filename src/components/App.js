@@ -1,10 +1,10 @@
 import React from 'react';
-
+import GmStats from './GmStats'
 
 function App() {
   return (
     <div className="App">
-    React Router Project
+      <GmStats />
     </div>
   );
 }

@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+li {
+  list-style-type: none;
+}
+
+.card {
+  margin: 10px;
+  width: 250px;
+  padding: 20px;
+}
+
+.bg-light {
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+}
+
+.gm-grid {
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.card-col {
+  flex:1;
+}
