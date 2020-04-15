@@ -1,19 +1,27 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export default function Card ({ seasonScore, playoffScore, totalScore, teamName }) {
+export default function Card({ seasonScore, playoffScore, totalScore, teamName, cardColor, cardBorder }) {
+  
+  
   return (
-    <div className='card bg-light'>
-      <div className='card-col'>
-        <ul>
-            <li>{`Season: ${seasonScore}`}</li>
-            <li>{`Playoff: ${playoffScore}`}</li>
-            <li>{`Total: ${totalScore}`}</li>
-        </ul>
+    <div className='card bg-light' style={{backgroundColor:cardColor, borderColor:cardBorder}}>
+      <div className='card-stats'>
+        <div className='card-sub'>season</div>
+        <div className='card-score'>{seasonScore}</div>
       </div>
-      <div className='card-col'>
-        <h1>{teamName}</h1>
+      <hr align='center'/>
+      <div className='card-stats'>
+        <div className='card-sub'>playoff</div>
+        <div className='card-score'>{playoffScore}</div>
       </div>
+      <hr/>
+      <div className='card-stats'>
+        <div className='card-sub'>overall</div>
+        <div className='card-score'>{totalScore}</div>
+      </div>
+      <hr/>
+      <div className='card-name'>{teamName}</div>
     </div>
   )
 }
