@@ -7,7 +7,7 @@ export default function Card({ seasonScore, playoffScore, totalScore, teamName, 
   const handleClick = () => flipped === false ? setFlipped(true) : setFlipped(false)
 
   return (
-    <div className='card' style={{ backgroundColor: theme.color, borderColor: theme.borderColor }} onClick={handleClick}>
+    <div className='card noselect' style={{ backgroundColor: theme.color, borderColor: theme.borderColor }} onClick={handleClick}>
       {!flipped ? (
         <>
           <div className='card-stats'>
