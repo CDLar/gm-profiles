@@ -1,5 +1,5 @@
 import React from 'react';
-import GmStats from './GmStats'
+import GmStats from './components/GmStats'
 
 function App() {
   return (
