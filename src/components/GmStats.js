@@ -4,7 +4,7 @@ import Card from './Card'
 import ThemeContext, { themes } from '../context/theme'
 
 export default function GmStats() {
-    const [theme, setTheme] = React.useState(themes.wpgTheme)
+    const [theme, setTheme] = React.useState(themes.dalTheme)
 
     return (
         <div className='wrapper' style={theme}>
