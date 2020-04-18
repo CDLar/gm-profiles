@@ -1,7 +1,6 @@
 html, body, #root, .app {
   margin: 0;
   width:100%;
-  min-height:100%;
   height:100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -25,6 +24,7 @@ li {
   border: solid 2px;
   transition: all .2s ease-in-out;
   border-radius: 3px;
+  flex:0 1 auto;
 }
 
 .card:hover { 
