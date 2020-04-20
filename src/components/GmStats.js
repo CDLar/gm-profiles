@@ -7,10 +7,10 @@ export default function GmStats() {
     const [theme, setTheme] = React.useState(themes.detTheme)
 
     return (
-        <div className='wrapper' style={theme}>
-            <div className="gm-grid">
-                {Object.values(GmData).map(obj => <Card key={obj.id} {...obj.gmRanking} theme={theme} />)}
-            </ div>
-        </div>
+            <div className='wrapper' style={theme}>
+                <div className="gm-grid">
+                    {Object.values(GmData).map(obj => <Card key={obj.id} {...obj.gmRanking} theme={theme} />)}
+                </ div>
+            </div>
     )
 }
