@@ -5,9 +5,7 @@ import GmStats from './components/GmStats'
 
 function App() {
   return (
-    <div className='app'>
       <GmStats />
-    </div>
   );
 }
 
