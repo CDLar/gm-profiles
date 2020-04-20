@@ -12,9 +12,9 @@ li {
 }
 
 .settings{
-position:absolute;
 right:0;
 margin:10px;
+position:fixed;
 }
 
 .settings:hover { 
@@ -90,6 +90,14 @@ margin:10px;
   justify-content: center;
 }
 
+.theme-grid {
+  display:flex;
+  flex-wrap:wrap;
+  margin: auto 2em;
+  align-items:center;
+  justify-content: center;
+}
+
 .wrapper {
   width:100%;
   height:auto;
@@ -103,13 +111,70 @@ margin:10px;
 }
 
 .settings-box {
-  position:absolute;
+  position:fixed;
+  overflow:hide;
   top:0;
-  left:-100%;
-  width:100%;
-  height:100vh;
-  background:black;
-  transition: 0.4s;
+  right:-100;
+  height: 100vh;
+  width: 100%;
+  transition: 0.4s ease-in;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+}
+
+.settings-wrapper {
+  display:flex;
+  flex-wrap:rows;
+  justify-content:center;
+  height:100%;
+  background-color:white;
+}
+
+.team-button {
+  width: 250px;
+  height: 50px;
+  border-bottom: solid 4px;
+  font-size: 1rem;
+  font-weight:700;
+  display:flex;
+  margin:10px;
+  justify-content: center;
+  align-items:center;
+}
+
+.team-button:hover { 
+  transform: scale(1.05); 
+  cursor: pointer;
+}
+
+.slide-in {
+  animation: slide-in 0.3s forwards;
+  -webkit-animation: slide-in 0.3s forwards;
+  display:block;
+}
+
+.slide-out {
+  animation: slide-out 0.3s forwards;
+  -webkit-animation: slide-out 0.3s forwards;
+  display:block;
+}
+  
+@keyframes slide-in {
+  100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+  100% { -webkit-transform: translateX(0%); }
+}
+  
+@keyframes slide-out {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slide-out {
+  0% { -webkit-transform: translateX(0%); }
+  100% { -webkit-transform: translateX(-100%); }
 }
 
 .noselect {
