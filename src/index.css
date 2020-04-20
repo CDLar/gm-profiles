@@ -80,12 +80,14 @@ li {
 
 .wrapper {
   width:100%;
-  height:100vh;
+  height:auto;
+  min-height:100vh;
   display:flex;
   justify-content: center;
-  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 .noselect {
