@@ -51,7 +51,7 @@ export const themes = {
         backgroundImage: 'url(https://i.imgur.com/kY0Xw2I.jpg)'
     },
     colTheme: {
-        team: 'Colorado Aidanche',
+        team: 'Colorado Avalanche',
         id: 'col',
         color: '#6F263D',
         borderColor: '#236192',
@@ -86,7 +86,7 @@ export const themes = {
         backgroundImage: 'url(https://i.imgur.com/5rI5hNz.jpg)'
     },
     floTheme: {
-        team: 'Florteama Panthers',
+        team: 'Florida Panthers',
         id: 'flo',
         color: '#041E42',
         borderColor: '#C8102E',
