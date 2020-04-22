@@ -1713,18 +1713,22 @@ export const GmData = {
     championships: [],
     henicups: [2019],
     seasonFinish: {
-      2018: 10,
-      2019: 9,
+      2017: 8,
+      2018: 12,
+      2019: 12,
       2020: 9,
+      points: [42,8.3,8.3,20]
     },
     playoffFinish: {
-      2018: 9,
+      2017: 2,
+      2018: 10,
       2019: 10,
+      points: [92,25,8.3]
     },
     gmRanking: {
-      seasonScore: 17,
-      playoffScore: 15,
-      totalScore: 16,
+      seasonScore: 20,
+      playoffScore: 42,
+      totalScore:31 ,
       teamName: 'Buckley'
     }
   },
@@ -1738,18 +1742,26 @@ export const GmData = {
     championships: [],
     henicups: [],
     seasonFinish: {
-      2018: 7,
-      2019: 1,
+      2015: 2,
+      2016: 3,
+      2017:1,
+      2018:9,
+      2019:1,
       2020: 5,
+      points: [90,80,100,33,100,60]
     },
     playoffFinish: {
-      2018: 6,
-      2019: 3,
+      2015: 6, 
+      2016: 4,
+      2017: 5,
+      2018: 7,
+      2019: 4,
+      points: [50,70,67,50,75]
     },
     gmRanking: {
-      seasonScore: 63,
-      playoffScore: 65,
-      totalScore: 64,
+      seasonScore: 77,
+      playoffScore: 62,
+      totalScore: 70,
       teamName: 'Erlandson'
     }
   },
@@ -1763,18 +1775,26 @@ export const GmData = {
     championships: [],
     henicups: [],
     seasonFinish: {
+      2015: 1,
+      2016: 4,
+      2017: 7,
       2018: 1,
-      2019: 3,
+      2019: 4,
       2020: 4,
+      points: [100,70,50,100,75,70]
     },
     playoffFinish: {
+      2015: 3,
+      2016: 2,
+      2017: 9,
       2018: 2,
-      2019: 6,
+      2019: 8,
+      points: [80,90,33,92,42]
     },
     gmRanking: {
-      seasonScore: 83,
-      playoffScore: 70,
-      totalScore: 77,
+      seasonScore: 78,
+      playoffScore: 67,
+      totalScore: 73,
       teamName: 'Larsen'
     }
   },
@@ -1788,18 +1808,26 @@ export const GmData = {
     championships: [],
     henicups: [2013, 2014, 2016],
     seasonFinish: {
+      2015: 3,
+      2016: 10,
+      2017: 5,
       2018: 8,
-      2019: 8,
+      2019: 9,
       2020: 6,
+      points: [80,10,67,42,33,50]
     },
     playoffFinish: {
+      2015: 5,
+      2016: 9,
+      2017: 4,
       2018: 5,
-      2019: 8,
+      2019: 10,
+      points: [60,20,75,67,25]
     },
     gmRanking: {
-      seasonScore: 37,
-      playoffScore: 45,
-      totalScore: 41,
+      seasonScore: 47,
+      playoffScore: 49,
+      totalScore: 48,
       teamName: 'Le Fevre'
     }
   },
@@ -1813,17 +1841,25 @@ export const GmData = {
     championships: [],
     henicups: [2018],
     seasonFinish: {
-      2018: 9,
-      2019: 10,
+      2015: 10,
+      2016: 9,
+      2017: 11,
+      2018: 10,
+      2019: 12,
       2020: 8,
+      points: [10,20,17,25,8.3,30]
     },
     playoffFinish: {
+      2015: 9,
+      2016: 10,
+      2017: 12,
       2018: 10,
       2019: 9,
+      points: [20,10,8.3,25,33]
     },
     gmRanking: {
-      seasonScore: 20,
-      playoffScore: 15,
+      seasonScore: 18,
+      playoffScore: 19,
       totalScore: 18,
       teamName: 'Leis'
     }
@@ -1838,18 +1874,24 @@ export const GmData = {
     championships: [2018, 2019],
     henicups: [],
     seasonFinish: {
+      2016: 7,
+      2017: 4,
       2018: 2,
       2019: 2,
       2020: 1,
+      points: [40,75,92,92,100]
     },
     playoffFinish: {
+      2016: 8,
+      2017: 6,
       2018: 1,
       2019: 1,
+      points: [30,58,100,100]
     },
     gmRanking: {
-      seasonScore: 93,
-      playoffScore: 100,
-      totalScore: 97,
+      seasonScore: 80,
+      playoffScore: 72,
+      totalScore: 76,
       teamName: 'Mann'
     }
   },
@@ -1863,18 +1905,26 @@ export const GmData = {
     championships: [2017],
     henicups: [],
     seasonFinish: {
-      2018: 5,
-      2019: 5,
+      2015:5,
+      2016:1,
+      2017:2,
+      2018: 6,
+      2019: 6,
       2020: 3,
+      points: [60,100,92,58,58,80]
     },
     playoffFinish: {
+      2015: 2,
+      2016: 3,
+      2017: 1,
       2018: 3,
       2019: 2,
+      points: [90,80,100,83,92]
     },
     gmRanking: {
-      seasonScore: 67,
-      playoffScore: 85,
-      totalScore: 76,
+      seasonScore: 75,
+      playoffScore: 89,
+      totalScore: 82,
       teamName: 'Scheuermann'
     }
   },
@@ -1888,18 +1938,26 @@ export const GmData = {
     championships: [],
     henicups: [],
     seasonFinish: {
-      2018: 4,
-      2019: 7,
+      2015: 7,
+      2016: 5,
+      2017: 6,
+      2018: 5,
+      2019: 8,
       2020: 7,
+      points: [40,60,58,67,42,40]
     },
     playoffFinish: {
+      2015: 7,
+      2016: 6,
+      2017: 3,
       2018: 4,
       2019: 7,
+      points: [40,50,83,75,50]
     },
     gmRanking: {
-      seasonScore: 50,
-      playoffScore: 55,
-      totalScore: 53,
+      seasonScore: 51,
+      playoffScore: 60,
+      totalScore: 56,
       teamName: 'Snyder'
     }
   },
@@ -1913,18 +1971,26 @@ export const GmData = {
     championships: [2014, 2015, 2016],
     henicups: [],
     seasonFinish: {
-      2018: 3,
-      2019: 6,
+      2015: 3,
+      2016: 2,
+      2017: 3,
+      2018: 4,
+      2019: 7,
       2020: 2,
+      points: [80,90,83,75,50,90]
     },
     playoffFinish: {
-      2018: 7,
-      2019: 5,
+      2015: 1,
+      2016: 1,
+      2017: 7,
+      2018: 8,
+      2019: 7,
+      points: [100,100,50,42,50]
     },
     gmRanking: {
-      seasonScore: 73,
-      playoffScore: 62,
-      totalScore: 67,
+      seasonScore: 78,
+      playoffScore: 68,
+      totalScore: 73,
       teamName: 'Varley Jr.'
     }
   },
@@ -1938,18 +2004,20 @@ export const GmData = {
     championships: [],
     henicups: [],
     seasonFinish: {
-      2018: 6,
-      2019: 4,
+      2018: 7,
+      2019: 3,
       2020: 10,
+      points: [50,83,10]
     },
     playoffFinish: {
-      2018: 8,
-      2019: 4,
+      2018: 9,
+      2019: 5,
+      points: [33,67]
     },
     gmRanking: {
-      seasonScore: 43,
+      seasonScore: 48,
       playoffScore: 50,
-      totalScore: 47,
+      totalScore: 49,
       teamName: 'Varley Sr.'
     }
   }

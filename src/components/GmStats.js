@@ -33,7 +33,12 @@ export default function GmStats() {
                 </div>
             </div>
             <div className="gm-grid">
-                {Object.values(GmData).map(obj => <Card key={obj.id} {...obj.gmRanking} theme={theme} />)}
+                {Object.values(GmData).map(obj =>
+                    <Card
+                        key={obj.id}
+                        {...obj.gmRanking}
+                        theme={theme}
+                    />)}
             </div>
             {console.log(Object.values(localStorage))}
         </div>

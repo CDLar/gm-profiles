@@ -28,7 +28,24 @@ export default function Card({ seasonScore, playoffScore, totalScore, teamName, 
           <div className='card-name'>{teamName}</div>
         </>
       ) :
-        <div>Hello</div>
+        <>
+          <div className='card-stats'>
+            <div className='card-sub'>Championships</div>
+            <div className='card-score'></div>
+          </div>
+          <hr align='center' />
+          <div className='card-stats'>
+            <div className='card-sub'>Henicups</div>
+            <div className='card-score'>{playoffScore}</div>
+          </div>
+          <hr />
+          <div className='card-stats'>
+            <div className='card-sub'>overall</div>
+            <div className='card-score'>{totalScore}</div>
+          </div>
+          <hr />
+          <div className='card-name'>{teamName}</div>
+        </>
       }
     </div>
   )
