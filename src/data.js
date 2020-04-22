@@ -1705,6 +1705,7 @@ const players2020 = [
 export const GmData = {
   Buckley: {
     id: 'Buckley',
+    seasons: 7,
     s2020: {
       wins: 7,
       losses: 14,
@@ -1734,6 +1735,7 @@ export const GmData = {
   },
   Erlandson: {
     id: 'Erlandson',
+    seasons: 10,
     s2020: {
       wins: 11,
       losses: 10,
@@ -1767,6 +1769,7 @@ export const GmData = {
   },
   Larsen: {
     id: 'Larsen',
+    seasons: 6,
     s2020: {
       wins: 12,
       losses: 9,
@@ -1800,6 +1803,7 @@ export const GmData = {
   },
   LeFevre: {
     id: 'Le Fevre',
+    seasons: 10,
     s2020: {
       wins: 10,
       losses: 11,
@@ -1833,6 +1837,7 @@ export const GmData = {
   },
   Leis: {
     id: 'Leis',
+    seasons: 6,
     s2020: {
       wins: 7,
       losses: 14,
@@ -1866,6 +1871,7 @@ export const GmData = {
   },
   Mann: {
     id: 'Mann',
+    seasons: 5,
     s2020: {
       wins: 15,
       losses: 6,
@@ -1897,6 +1903,7 @@ export const GmData = {
   },
   Scheuermann: {
     id: 'Scheuermann',
+    seasons: 10,
     s2020: {
       wins: 7,
       losses: 14,
@@ -1930,6 +1937,7 @@ export const GmData = {
   },
   Snyder: {
     id: 'Snyder',
+    seasons: 10,
     s2020: {
       wins: 9,
       losses: 12,
@@ -1963,6 +1971,7 @@ export const GmData = {
   },
   VarleyJr: {
     id: 'KV',
+    seasons: 10,
     s2020: {
       wins: 7,
       losses: 14,
@@ -1996,6 +2005,7 @@ export const GmData = {
   },
   VarleySr: {
     id: 'Sunny',
+    seasons: 3,
     s2020: {
       wins: 7,
       losses: 14,

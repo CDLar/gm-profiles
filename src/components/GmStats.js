@@ -36,8 +36,11 @@ export default function GmStats() {
                 {Object.values(GmData).map(obj =>
                     <Card
                         key={obj.id}
+                        champ={obj.championships}
+                        heni={obj.henicups}
                         {...obj.gmRanking}
                         theme={theme}
+                        seasons={obj.seasons}
                     />)}
             </div>
             {console.log(Object.values(localStorage))}
