@@ -36,7 +36,7 @@ export default function Card({ seasonScore, playoffScore, totalScore, teamName, 
             <div className='card-b'>{champ.length}</div>
             <div className='card-c'>
               <Tooltip text={champ.length > 0 ? champ.join(", ") : 'No championships'}>
-                <IoMdInformationCircleOutline size={'1.25rem'}/>
+                <IoMdInformationCircleOutline className='info-icon'/>
               </Tooltip>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Card({ seasonScore, playoffScore, totalScore, teamName, 
             <div className='card-b'>{heni.length}</div>
             <div className='card-c'>
               <Tooltip text={heni.length > 0 ? heni.join(", ") : 'No Henicups'}>
-                <IoMdInformationCircleOutline />
+                <IoMdInformationCircleOutline className='info-icon'/>
               </Tooltip>
             </div>
           </div>
