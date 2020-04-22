@@ -9,7 +9,7 @@ export default function GmStats() {
     const savedTheme = JSON.parse(localStorage.getItem('theme'))
     const [theme, setTheme] = React.useState(savedTheme || themes.wpgTheme)
     const [slide, setSlide] = React.useState(false)
-    const toggleSlide = () => setSlide((slider) => slider === true ? false : true)
+    const toggleSlide = () => setSlide((slider) => slider === true ? false : true);
 
     return (
         <div className='wrapper' style={theme}>
@@ -19,7 +19,7 @@ export default function GmStats() {
                 <div className='settings-wrapper'>
                     <ul className='theme-grid'>
                         {Object.values(themes).map(obj =>
-                            <li className='team-button'
+                            <li className='team-button noselect'
                                 onClick={() => {
                                     setTheme(obj);
                                     toggleSlide();
@@ -41,6 +41,7 @@ export default function GmStats() {
                         {...obj.gmRanking}
                         theme={theme}
                         seasons={obj.seasons}
+                        slide={slide}
                     />)}
             </div>
             {console.log(Object.values(localStorage))}
