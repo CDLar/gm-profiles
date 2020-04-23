@@ -1702,10 +1702,18 @@ const players2020 = [
   }
 ]
 
+export const leagueRecs = {
+
+}
+
 export const GmData = {
   Buckley: {
     id: 'Buckley',
     seasons: 7,
+    records : {
+      highestPts: '3410 (2020)',
+      bestRec: '9-11-0 (2017)', 
+    }, 
     s2020: {
       wins: 7,
       losses: 14,
@@ -1736,6 +1744,10 @@ export const GmData = {
   Erlandson: {
     id: 'Erlandson',
     seasons: 10,
+    records : {
+      highestPts: '3834 (2020)',
+      bestRec:'15-5-0 (2017)', 
+    },
     s2020: {
       wins: 11,
       losses: 10,
@@ -1770,6 +1782,10 @@ export const GmData = {
   Larsen: {
     id: 'Larsen',
     seasons: 6,
+    records : {
+      highestPts: '3818 (2019)',
+      bestRec:'17-4-0 (2015)', 
+    },
     s2020: {
       wins: 12,
       losses: 9,
@@ -1804,6 +1820,10 @@ export const GmData = {
   LeFevre: {
     id: 'Le Fevre',
     seasons: 10,
+    records : {
+      highestPts: '3838 (2020)' ,
+      bestRec: '13-8-0 (2015)', 
+    },
     s2020: {
       wins: 10,
       losses: 11,
@@ -1838,6 +1858,10 @@ export const GmData = {
   Leis: {
     id: 'Leis',
     seasons: 6,
+    records : {
+      highestPts: '3601 (2020)',
+      bestRec: '9-12-0 (2018)' , 
+    },
     s2020: {
       wins: 7,
       losses: 14,
@@ -1872,6 +1896,10 @@ export const GmData = {
   Mann: {
     id: 'Mann',
     seasons: 5,
+    records : {
+      highestPts: '4052 (2020)',
+      bestRec: '15-6-0 (2020)', 
+    },
     s2020: {
       wins: 15,
       losses: 6,
@@ -1904,6 +1932,10 @@ export const GmData = {
   Scheuermann: {
     id: 'Scheuermann',
     seasons: 10,
+    records : {
+      highestPts: '4011 (2019)',
+      bestRec: '15-6-0 (2016)', 
+    },
     s2020: {
       wins: 7,
       losses: 14,
@@ -1938,6 +1970,10 @@ export const GmData = {
   Snyder: {
     id: 'Snyder',
     seasons: 10,
+    records : {
+      highestPts: '3498 (2018)',
+      bestRec: '11-9-0 (2017)', 
+    },
     s2020: {
       wins: 9,
       losses: 12,
@@ -1972,6 +2008,10 @@ export const GmData = {
   VarleyJr: {
     id: 'KV',
     seasons: 10,
+    records : {
+      highestPts: '3695 (2020)',
+      bestRec: '14-7-0 (2020)', 
+    },
     s2020: {
       wins: 7,
       losses: 14,
@@ -2006,6 +2046,10 @@ export const GmData = {
   VarleySr: {
     id: 'Sunny',
     seasons: 3,
+    records : {
+      highestPts: '3732 (2019)',
+      bestRec: '12-9-0 (2019)', 
+    },
     s2020: {
       wins: 7,
       losses: 14,
