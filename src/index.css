@@ -18,14 +18,16 @@ position:fixed;
 }
 
 .data-icon{
-  left:0;
-  margin:10px;
+  right:0;
+  margin-top:80px;
+  margin-right:10px;
   position:fixed;
   }
   
   .card-icon{
-    left:0;
-    margin:50px;
+    right:0;
+    margin-top:160px;
+    margin-right:10px;
     position:fixed;
     }
 
@@ -158,10 +160,13 @@ position:fixed;
 .stats-wrapper {
   display:flex;
   flex-wrap:wrap;
-  margin: auto 10em;
   height:100%;
-  min-height:80vh;
-  width:100%;
+  max-height:100vh;
+  min-height:99.5vh;
+  width:25%;
+  border: solid 2px;
+  left:0;
+  position:fixed;
 }
 
 .settings-box {
