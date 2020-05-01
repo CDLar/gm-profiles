@@ -1,8 +1,6 @@
 import React from 'react'
 import Tooltip from '../components/Tooltip'
 import { IoMdInformationCircleOutline } from 'react-icons/io'
-import { FaExternalLinkAlt } from 'react-icons/fa'
-import PropTypes from 'prop-types'
 
 export default function Card({ seasonScore, playoffScore, totalScore, teamName, theme, champ, heni, seasons, slide }) {
 
@@ -13,7 +11,7 @@ export default function Card({ seasonScore, playoffScore, totalScore, teamName, 
     <>
       {!flipped ? (     //Card front
         <div className='card noselect' style={{ backgroundColor: theme.color, borderColor: theme.borderColor }} onClick={handleClick}>
-          <div className='card-stats'>
+            <div className='card-stats'>
             <div className='card-sub'>season</div>
             <div className='card-score'>{seasonScore}</div>
           </div>
@@ -29,7 +27,6 @@ export default function Card({ seasonScore, playoffScore, totalScore, teamName, 
           </div>
           <hr />
           <div className='card-name'>{teamName}
-          <FaExternalLinkAlt size={20} style={{marginLeft:'1em'}}/>
           </div>
         </div>
       ) 
