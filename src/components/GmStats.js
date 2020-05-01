@@ -6,6 +6,8 @@ import Stats from './Stats'
 import { themes } from '../context/theme'
 import { IoMdSettings } from "react-icons/io";
 import { RiNumbersLine } from 'react-icons/ri'
+import { AiOutlineIdcard } from "react-icons/ai"
+
 
 export default function GmStats() {
     const savedTheme = JSON.parse(localStorage.getItem('theme'))
@@ -19,6 +21,12 @@ export default function GmStats() {
         );
     }
 
+    const myStats = (props) => {
+        return (
+            <Stats theme={theme} {...props} />
+        );
+    }
+
     return (
         <Router>
             <div className='wrapper' style={theme}>
@@ -26,12 +34,15 @@ export default function GmStats() {
                 <Link to ='/stats'>
                     <RiNumbersLine size={50} className='data-icon' />
                 </Link>
+                <Link to ='/'>
+                    <AiOutlineIdcard size={50} className='card-icon'/>
+                </Link>
                 <div id='settings-box' className={`settings-box ${slide ? "slide-in" : "slide-out"}`} style={{ backgroundColor: theme.color, color: 'white', fontSize: '5rem' }}>
                     <Settings theme={theme} themes={themes} setTheme={setTheme} toggleSlide={toggleSlide} />
                 </div>
                 <Switch>
                     <Route exact path='/' render={myCardGrid} />
-                    <Route exact path='/stats' component={Stats} />
+                    <Route exact path='/stats' render={myStats} />
                 </Switch>
             </div>
         </Router>

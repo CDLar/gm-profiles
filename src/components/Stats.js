@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Stats() {
+function Stats({theme}) {
     return (
-        <div className='gm-grid'>
+        <div className='stats-wrapper' style={{ backgroundColor: theme.color, borderColor: theme.borderColor }}>
             Hello
         </div>
     )
