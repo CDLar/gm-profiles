@@ -3,6 +3,7 @@ import CardGrid from './CardGrid'
 import Settings from './Settings'
 import { themes } from '../context/theme'
 import { IoMdSettings } from "react-icons/io";
+import {RiNumbersLine} from 'react-icons/ri'
 
 
 export default function GmStats() {
@@ -14,10 +15,9 @@ export default function GmStats() {
     return (
         <div className='wrapper' style={theme}>
             <IoMdSettings size={50} onClick={toggleSlide} className='settings' />
+            <RiNumbersLine size={50}  className='data-icon' />
             <div id='settings-box' className={`settings-box ${slide ? "slide-in" : "slide-out"}`} style={{ backgroundColor: theme.color, color: 'white', fontSize: '5rem' }}>
-                
                 <Settings theme={theme} themes={themes} setTheme={setTheme} toggleSlide={toggleSlide}/>
-                
             </div>
             <CardGrid theme={theme} slide={slide}/>
         </div>

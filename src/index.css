@@ -17,7 +17,18 @@ margin:10px;
 position:fixed;
 }
 
+.data-icon{
+  left:0;
+  margin:10px;
+  position:fixed;
+  }
+
 .settings:hover { 
+  transform: scale(1.05); 
+  cursor: pointer;
+}
+
+.data-icon:hover { 
   transform: scale(1.05); 
   cursor: pointer;
 }
