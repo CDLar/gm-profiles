@@ -6,22 +6,25 @@ import Divider from '@material-ui/core/Divider';
 
 
 function Stats({ theme }) {
-    const [activeBtn, setActiveBtn] = React.useState('Buckley')
-
+    const savedGm = JSON.parse(localStorage.getItem('savedGm'))
+    const [activeBtn, setActiveBtn] = React.useState(savedGm||'Buckley')
     return (
-        <>
-            <div className='nav-wrapper' style={{ backgroundColor: theme.color, borderColor: theme.borderColor }}>
+        <div className='stats-wrapper'>
+            <div className='nav-box' style={{ backgroundColor: theme.color, borderColor: theme.borderColor }}>
                 <div className="team-nav">
                     {Object.values(GmData).map(obj =>
                         <>
                             <Button
-                                className='team-nav'
+                                className='nav-btn'
                                 style={{
                                     color: 'white', borderRadius: 0,
                                     borderLeft: obj.id === activeBtn ? `15px solid ${theme.borderColor}` : '',
                                     fontWeight: obj.id === activeBtn ? '700' : '400'
                                 }}
-                                onClick={() => setActiveBtn(obj.id)}
+                                onClick={() => {
+                                    setActiveBtn(obj.id);
+                                    localStorage.setItem('savedGm', JSON.stringify(obj.id))               
+                                }}
                                 key={obj.id}
                                 {...obj.gmRanking}
                                 theme={theme}
@@ -32,10 +35,9 @@ function Stats({ theme }) {
                     )}
                 </div>
             </div>
-            {/* <div className='stat-wrapper' style={{ backgroundColor: theme.color, borderColor: theme.borderColor }}>
-                Hello HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello
-            </div> */}
-        </>
+            <div className='stats-grid'>                   
+            </div>
+        </div>
     )
 }
 

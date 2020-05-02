@@ -157,25 +157,28 @@ position:fixed;
   background-position: center;
 }
 
-.nav-wrapper {
+.stats-wrapper {
+display:flex;
+width:100%;
+box-sizing: border-box
+}
+
+.stats-grid{
+  max-height:100vh;
+  min-height:100vh;
+  height:100%;
+  flex:11;
+  display:grid;
+}
+
+.nav-box {
   display:flex;
   flex-wrap:wrap;
   height:100%;
-  max-height:100vh;
+  max-height:99.5vh;
   min-height:99.5vh;
-  width:15%;
-  left:0;
-  position:fixed;
+  flex:2;
   border:1.5px solid
-}
-
-.stat-wrapper{
-  width:50%;
-  height:50vh;
-  margin:1rem;
-  display:flex;
-  margin:auto;
-  margin-right:15%;
 }
 
 .settings-box {
