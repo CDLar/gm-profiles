@@ -165,10 +165,31 @@ box-sizing: border-box
 
 .stats-grid{
   max-height:100vh;
-  min-height:100vh;
-  height:100%;
   flex:11;
   display:grid;
+  grid-gap:2em;
+  margin:2em 9em 2em 5em;
+  grid-template-areas: 
+  'roster roster top top top'
+  'roster roster top top top'
+  'roster roster top top top'
+  'stat stat stat stat stat';
+}
+
+.stats-grid div {
+  border: solid 2px;
+}
+
+.roster-card {
+  grid-area:roster;
+}
+
+.top-card {
+  grid-area:top;
+}
+
+.stat-card {
+  grid-area:stat;
 }
 
 .nav-box {
