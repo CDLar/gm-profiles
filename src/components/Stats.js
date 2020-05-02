@@ -9,28 +9,33 @@ function Stats({ theme }) {
     const [activeBtn, setActiveBtn] = React.useState('Buckley')
 
     return (
-        <div className='stats-wrapper' style={{ backgroundColor: theme.color, borderColor: theme.borderColor }}>
-            <div className="team-nav">
-                {Object.values(GmData).map(obj =>
-                    <>
-                        <Button
-                            className='team-nav'
-                            style={{
-                                color: 'white', borderRadius: 0,
-                                borderLeft: obj.id === activeBtn ? `15px solid ${theme.borderColor}` : '',
-                                fontWeight: obj.id === activeBtn ? '700' : '400'
-                            }}
-                            onClick={() => setActiveBtn(obj.id)}
-                            key={obj.id}
-                            {...obj.gmRanking}
-                            theme={theme}
-                        >
-                            {obj.gmRanking.teamName}</Button>
-                        <Divider variant='middle' style={{ backgroundColor: theme.borderColor }} />
-                    </>
-                )}
+        <>
+            <div className='nav-wrapper' style={{ backgroundColor: theme.color, borderColor: theme.borderColor }}>
+                <div className="team-nav">
+                    {Object.values(GmData).map(obj =>
+                        <>
+                            <Button
+                                className='team-nav'
+                                style={{
+                                    color: 'white', borderRadius: 0,
+                                    borderLeft: obj.id === activeBtn ? `15px solid ${theme.borderColor}` : '',
+                                    fontWeight: obj.id === activeBtn ? '700' : '400'
+                                }}
+                                onClick={() => setActiveBtn(obj.id)}
+                                key={obj.id}
+                                {...obj.gmRanking}
+                                theme={theme}
+                            >
+                                {obj.gmRanking.teamName}</Button>
+                            <Divider variant='middle' style={{ backgroundColor: theme.borderColor }} />
+                        </>
+                    )}
+                </div>
             </div>
-        </div>
+            {/* <div className='stat-wrapper' style={{ backgroundColor: theme.color, borderColor: theme.borderColor }}>
+                Hello HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello
+            </div> */}
+        </>
     )
 }
 
