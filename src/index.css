@@ -163,10 +163,10 @@ position:fixed;
   height:100%;
   max-height:100vh;
   min-height:99.5vh;
-  width:25%;
-  border: solid 2px;
+  width:15%;
   left:0;
   position:fixed;
+  border:1.5px solid
 }
 
 .settings-box {
@@ -200,6 +200,21 @@ position:fixed;
   margin:10px;
   justify-content: center;
   align-items:center;
+}
+
+.team-nav {
+display:flex;
+flex-direction:column;
+height: 100%;
+width: 100%;
+}
+
+.active-btn {
+border-left: 50px solid red;
+}
+
+.nav-btn{
+  flex: 1
 }
 
 .info-icon {
