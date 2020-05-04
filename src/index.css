@@ -159,45 +159,72 @@ position:fixed;
 
 .stats-wrapper {
 display:flex;
+box-sizing: border-box;
 width:100%;
-box-sizing: border-box
+height:auto;
+min-height:100vh;
 }
 
 .stats-grid{
-  max-height:100vh;
   flex:11;
   display:grid;
   grid-gap:2em;
-  margin:2em 9em 2em 5em;
+  margin:2em 7.5em 2em 4em;
+  grid-template-columns:minmax(300px, 3fr) minmax(500px, 5fr);
+  grid-template-rows:minmax(450px,3fr) minmax(150px,1fr);
   grid-template-areas: 
-  'roster roster top top top'
-  'roster roster top top top'
-  'roster roster top top top'
-  'stat stat stat stat stat';
+  'roster top'
+  'stat stat';
 }
 
 .stats-grid div {
   border: solid 2px;
+  overflow:hidden;
 }
 
 .roster-card {
   grid-area:roster;
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  flex-wrap:wrap;
+}
+
+.roster-head {
+color: white;
+margin: 0.5em 0
 }
 
 .top-card {
   grid-area:top;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.top-card div {
+  flex:1;
+  display:flex;
+  align-items: center;
+  width:100%;
+  justify-content: center;
+}
+.MuiTab-root {
+  min-width:50px !important
+}
+.top-card h2 {
+  color:white;
 }
 
 .stat-card {
   grid-area:stat;
+  display:flex;
 }
 
 .nav-box {
   display:flex;
   flex-wrap:wrap;
-  height:100%;
-  max-height:99.5vh;
-  min-height:99.5vh;
+  height:auto;
   flex:2;
   border:1.5px solid
 }
@@ -243,7 +270,9 @@ width: 100%;
 }
 
 .nav-btn{
-  flex: 1
+  flex: 1;
+  min-height: 4.375em;
+  min-width: 11.875em;
 }
 
 .info-icon {
