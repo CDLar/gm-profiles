@@ -1710,14 +1710,44 @@ export const GmData = {
   Buckley: {
     id: 'Buckley',
     seasons: 7,
-    records : {
+    records: {
       highestPts: '3410 (2020)',
-      bestRec: '9-11-0 (2017)', 
-    }, 
+      bestRec: '9-11-0 (2017)',
+      topPlayers: {
+        first: {
+          name: 'Austin Matthews',
+          number: '#34',
+          pos: 'Center',
+          team1: 'Toronto',
+          team2: 'Maple Leafs',
+          points: '338.8',
+          picURL: 'https://img.fantrax.com/si/headshots/NHL/hs03jxy_400_3.png'
+        },
+        second: {
+
+        },
+        third: {
+
+        }
+      }
+    },
     s2020: {
       wins: 7,
       losses: 14,
-      players: players2020.filter((el) => el.Status === 'Buckley'),
+      players: players2020.filter((el) => el.Status === 'Buckley').sort((b, a) => a.FPts - b.FPts),
+      0: players2020.filter((el) => el.Status === 'Buckley').filter(player => player.Position === 'F').reduce((a, b) => a + b.FPts, 0),
+      1: players2020.filter((el) => el.Status === 'Buckley').filter(player => player.Position === 'D').reduce((a, b) => a + b.FPts, 0),
+      2: players2020.filter((el) => el.Status === 'Buckley').filter(player => player.Position === 'G').reduce((a, b) => a + b.FPts, 0),
+      avg: {
+        0: players2020.filter((el) => el.Status === 'Buckley').filter(player => player.Position === 'F').reduce((a, b) => a + b['FP/G'], 0),
+        1: players2020.filter((el) => el.Status === 'Buckley').filter(player => player.Position === 'D').reduce((a, b) => a + b['FP/G'], 0),
+        2: players2020.filter((el) => el.Status === 'Buckley').filter(player => player.Position === 'G').reduce((a, b) => a + b['FP/G'], 0)
+      },
+      len: {
+        0: players2020.filter((el) => el.Status === 'Buckley').filter(player => player.Position === 'F').length,
+        1: players2020.filter((el) => el.Status === 'Buckley').filter(player => player.Position === 'D').length,
+        2: players2020.filter((el) => el.Status === 'Buckley').filter(player => player.Position === 'G').length,
+      }
     },
     championships: [],
     henicups: [2019],
@@ -1726,51 +1756,64 @@ export const GmData = {
       2018: 12,
       2019: 12,
       2020: 9,
-      points: [42,8.3,8.3,20]
+      points: [42, 8.3, 8.3, 20]
     },
     playoffFinish: {
       2017: 2,
       2018: 10,
       2019: 10,
-      points: [92,25,8.3]
+      points: [92, 25, 8.3]
     },
     gmRanking: {
       seasonScore: 20,
       playoffScore: 42,
-      totalScore:31 ,
+      totalScore: 31,
       teamName: 'Buckley'
     }
   },
   Erlandson: {
     id: 'Erlandson',
     seasons: 10,
-    records : {
+    records: {
       highestPts: '3834 (2020)',
-      bestRec:'15-5-0 (2017)', 
+      bestRec: '15-5-0 (2017)',
     },
     s2020: {
       wins: 11,
       losses: 10,
-      players: players2020.filter((el) => el.Status === 'Erlandson'),
+      players: players2020.filter((el) => el.Status === 'Erlandson').sort((b, a) => a.FPts - b.FPts),
+      0: players2020.filter((el) => el.Status === 'Erlandson').filter(player => player.Position === 'F').reduce((a, b) => a + b.FPts, 0),
+      1: players2020.filter((el) => el.Status === 'Erlandson').filter(player => player.Position === 'D').reduce((a, b) => a + b.FPts, 0),
+      2: players2020.filter((el) => el.Status === 'Erlandson').filter(player => player.Position === 'G').reduce((a, b) => a + b.FPts, 0),
+      avg: {
+        0: players2020.filter((el) => el.Status === 'Erlandson').filter(player => player.Position === 'F').reduce((a, b) => a + b['FP/G'], 0),
+        1: players2020.filter((el) => el.Status === 'Erlandson').filter(player => player.Position === 'D').reduce((a, b) => a + b['FP/G'], 0),
+        2: players2020.filter((el) => el.Status === 'Erlandson').filter(player => player.Position === 'G').reduce((a, b) => a + b['FP/G'], 0)
+      },
+      len: {
+        0: players2020.filter((el) => el.Status === 'Erlandson').filter(player => player.Position === 'F').length,
+        1: players2020.filter((el) => el.Status === 'Erlandson').filter(player => player.Position === 'D').length,
+        2: players2020.filter((el) => el.Status === 'Erlandson').filter(player => player.Position === 'G').length,
+      }
     },
     championships: [],
     henicups: [],
     seasonFinish: {
       2015: 2,
       2016: 3,
-      2017:1,
-      2018:9,
-      2019:1,
+      2017: 1,
+      2018: 9,
+      2019: 1,
       2020: 5,
-      points: [90,80,100,33,100,60]
+      points: [90, 80, 100, 33, 100, 60]
     },
     playoffFinish: {
-      2015: 6, 
+      2015: 6,
       2016: 4,
       2017: 5,
       2018: 7,
       2019: 4,
-      points: [50,70,67,50,75]
+      points: [50, 70, 67, 50, 75]
     },
     gmRanking: {
       seasonScore: 77,
@@ -1782,14 +1825,27 @@ export const GmData = {
   Larsen: {
     id: 'Larsen',
     seasons: 6,
-    records : {
+    records: {
       highestPts: '3818 (2019)',
-      bestRec:'17-4-0 (2015)', 
+      bestRec: '17-4-0 (2015)',
     },
     s2020: {
       wins: 12,
       losses: 9,
-      players: players2020.filter((el) => el.Status === 'Larsen')
+      players: players2020.filter((el) => el.Status === 'Larsen').sort((b, a) => a.FPts - b.FPts),
+      0: players2020.filter((el) => el.Status === 'Larsen').filter(player => player.Position === 'F').reduce((a, b) => a + b.FPts, 0),
+      1: players2020.filter((el) => el.Status === 'Larsen').filter(player => player.Position === 'D').reduce((a, b) => a + b.FPts, 0),
+      2: players2020.filter((el) => el.Status === 'Larsen').filter(player => player.Position === 'G').reduce((a, b) => a + b.FPts, 0),
+      avg: {
+        0: players2020.filter((el) => el.Status === 'Larsen').filter(player => player.Position === 'F').reduce((a, b) => a + b['FP/G'], 0),
+        1: players2020.filter((el) => el.Status === 'Larsen').filter(player => player.Position === 'D').reduce((a, b) => a + b['FP/G'], 0),
+        2: players2020.filter((el) => el.Status === 'Larsen').filter(player => player.Position === 'G').reduce((a, b) => a + b['FP/G'], 0)
+      },
+      len: {
+        0: players2020.filter((el) => el.Status === 'Larsen').filter(player => player.Position === 'F').length,
+        1: players2020.filter((el) => el.Status === 'Larsen').filter(player => player.Position === 'D').length,
+        2: players2020.filter((el) => el.Status === 'Larsen').filter(player => player.Position === 'G').length,
+      }
     },
     championships: [],
     henicups: [],
@@ -1800,7 +1856,7 @@ export const GmData = {
       2018: 1,
       2019: 4,
       2020: 4,
-      points: [100,70,50,100,75,70]
+      points: [100, 70, 50, 100, 75, 70]
     },
     playoffFinish: {
       2015: 3,
@@ -1808,7 +1864,7 @@ export const GmData = {
       2017: 9,
       2018: 2,
       2019: 8,
-      points: [80,90,33,92,42]
+      points: [80, 90, 33, 92, 42]
     },
     gmRanking: {
       seasonScore: 78,
@@ -1817,17 +1873,30 @@ export const GmData = {
       teamName: 'Larsen'
     }
   },
-  LeFevre: {
+  'Le Fevre': {
     id: 'Le Fevre',
     seasons: 10,
-    records : {
-      highestPts: '3838 (2020)' ,
-      bestRec: '13-8-0 (2015)', 
+    records: {
+      highestPts: '3838 (2020)',
+      bestRec: '13-8-0 (2015)',
     },
     s2020: {
       wins: 10,
       losses: 11,
-      players: players2020.filter((el) => el.Status === 'Le Fevre')
+      players: players2020.filter((el) => el.Status === 'Le Fevre').sort((b, a) => a.FPts - b.FPts),
+      0: players2020.filter((el) => el.Status === 'Le Fevre').filter(player => player.Position === 'F').reduce((a, b) => a + b.FPts, 0),
+      1: players2020.filter((el) => el.Status === 'Le Fevre').filter(player => player.Position === 'D').reduce((a, b) => a + b.FPts, 0),
+      2: players2020.filter((el) => el.Status === 'Le Fevre').filter(player => player.Position === 'G').reduce((a, b) => a + b.FPts, 0),
+      avg: {
+        0: players2020.filter((el) => el.Status === 'Le Fevre').filter(player => player.Position === 'F').reduce((a, b) => a + b['FP/G'], 0),
+        1: players2020.filter((el) => el.Status === 'Le Fevre').filter(player => player.Position === 'D').reduce((a, b) => a + b['FP/G'], 0),
+        2: players2020.filter((el) => el.Status === 'Le Fevre').filter(player => player.Position === 'G').reduce((a, b) => a + b['FP/G'], 0)
+      },
+      len: {
+        0: players2020.filter((el) => el.Status === 'Le Fevre').filter(player => player.Position === 'F').length,
+        1: players2020.filter((el) => el.Status === 'Le Fevre').filter(player => player.Position === 'D').length,
+        2: players2020.filter((el) => el.Status === 'Le Fevre').filter(player => player.Position === 'G').length,
+      }
     },
     championships: [],
     henicups: [2013, 2014, 2016],
@@ -1838,7 +1907,7 @@ export const GmData = {
       2018: 8,
       2019: 9,
       2020: 6,
-      points: [80,10,67,42,33,50]
+      points: [80, 10, 67, 42, 33, 50]
     },
     playoffFinish: {
       2015: 5,
@@ -1846,7 +1915,7 @@ export const GmData = {
       2017: 4,
       2018: 5,
       2019: 10,
-      points: [60,20,75,67,25]
+      points: [60, 20, 75, 67, 25]
     },
     gmRanking: {
       seasonScore: 47,
@@ -1858,14 +1927,27 @@ export const GmData = {
   Leis: {
     id: 'Leis',
     seasons: 6,
-    records : {
+    records: {
       highestPts: '3601 (2020)',
-      bestRec: '9-12-0 (2018)' , 
+      bestRec: '9-12-0 (2018)',
     },
     s2020: {
       wins: 7,
       losses: 14,
-      players: players2020.filter((el) => el.Status === 'Leis')
+      players: players2020.filter((el) => el.Status === 'Leis').sort((b, a) => a.FPts - b.FPts),
+      0: players2020.filter((el) => el.Status === 'Leis').filter(player => player.Position === 'F').reduce((a, b) => a + b.FPts, 0),
+      1: players2020.filter((el) => el.Status === 'Leis').filter(player => player.Position === 'D').reduce((a, b) => a + b.FPts, 0),
+      2: players2020.filter((el) => el.Status === 'Leis').filter(player => player.Position === 'G').reduce((a, b) => a + b.FPts, 0),
+      avg: {
+        0: players2020.filter((el) => el.Status === 'Leis').filter(player => player.Position === 'F').reduce((a, b) => a + b['FP/G'], 0),
+        1: players2020.filter((el) => el.Status === 'Leis').filter(player => player.Position === 'D').reduce((a, b) => a + b['FP/G'], 0),
+        2: players2020.filter((el) => el.Status === 'Leis').filter(player => player.Position === 'G').reduce((a, b) => a + b['FP/G'], 0)
+      },
+      len: {
+        0: players2020.filter((el) => el.Status === 'Leis').filter(player => player.Position === 'F').length,
+        1: players2020.filter((el) => el.Status === 'Leis').filter(player => player.Position === 'D').length,
+        2: players2020.filter((el) => el.Status === 'Leis').filter(player => player.Position === 'G').length,
+      }
     },
     championships: [],
     henicups: [2018],
@@ -1876,7 +1958,7 @@ export const GmData = {
       2018: 10,
       2019: 12,
       2020: 8,
-      points: [10,20,17,25,8.3,30]
+      points: [10, 20, 17, 25, 8.3, 30]
     },
     playoffFinish: {
       2015: 9,
@@ -1884,7 +1966,7 @@ export const GmData = {
       2017: 12,
       2018: 10,
       2019: 9,
-      points: [20,10,8.3,25,33]
+      points: [20, 10, 8.3, 25, 33]
     },
     gmRanking: {
       seasonScore: 18,
@@ -1896,14 +1978,27 @@ export const GmData = {
   Mann: {
     id: 'Mann',
     seasons: 5,
-    records : {
+    records: {
       highestPts: '4052 (2020)',
-      bestRec: '15-6-0 (2020)', 
+      bestRec: '15-6-0 (2020)',
     },
     s2020: {
       wins: 15,
       losses: 6,
-      players: players2020.filter((el) => el.Status === 'Mann')
+      players: players2020.filter((el) => el.Status === 'Mann').sort((b, a) => a.FPts - b.FPts),
+      0: players2020.filter((el) => el.Status === 'Mann').filter(player => player.Position === 'F').reduce((a, b) => a + b.FPts, 0),
+      1: players2020.filter((el) => el.Status === 'Mann').filter(player => player.Position === 'D').reduce((a, b) => a + b.FPts, 0),
+      2: players2020.filter((el) => el.Status === 'Mann').filter(player => player.Position === 'G').reduce((a, b) => a + b.FPts, 0),
+      avg: {
+        0: players2020.filter((el) => el.Status === 'Mann').filter(player => player.Position === 'F').reduce((a, b) => a + b['FP/G'], 0),
+        1: players2020.filter((el) => el.Status === 'Mann').filter(player => player.Position === 'D').reduce((a, b) => a + b['FP/G'], 0),
+        2: players2020.filter((el) => el.Status === 'Mann').filter(player => player.Position === 'G').reduce((a, b) => a + b['FP/G'], 0)
+      },
+      len: {
+        0: players2020.filter((el) => el.Status === 'Mann').filter(player => player.Position === 'F').length,
+        1: players2020.filter((el) => el.Status === 'Mann').filter(player => player.Position === 'D').length,
+        2: players2020.filter((el) => el.Status === 'Mann').filter(player => player.Position === 'G').length,
+      }
     },
     championships: [2018, 2019],
     henicups: [],
@@ -1913,14 +2008,14 @@ export const GmData = {
       2018: 2,
       2019: 2,
       2020: 1,
-      points: [40,75,92,92,100]
+      points: [40, 75, 92, 92, 100]
     },
     playoffFinish: {
       2016: 8,
       2017: 6,
       2018: 1,
       2019: 1,
-      points: [30,58,100,100]
+      points: [30, 58, 100, 100]
     },
     gmRanking: {
       seasonScore: 80,
@@ -1932,25 +2027,38 @@ export const GmData = {
   Scheuermann: {
     id: 'Scheuermann',
     seasons: 10,
-    records : {
+    records: {
       highestPts: '4011 (2019)',
-      bestRec: '15-6-0 (2016)', 
+      bestRec: '15-6-0 (2016)',
     },
     s2020: {
       wins: 7,
       losses: 14,
-      players: players2020.filter((el) => el.Status === 'Scheuermann')
+      players: players2020.filter((el) => el.Status === 'Scheuermann').sort((b, a) => a.FPts - b.FPts),
+      0: players2020.filter((el) => el.Status === 'Scheuermann').filter(player => player.Position === 'F').reduce((a, b) => a + b.FPts, 0),
+      1: players2020.filter((el) => el.Status === 'Scheuermann').filter(player => player.Position === 'D').reduce((a, b) => a + b.FPts, 0),
+      2: players2020.filter((el) => el.Status === 'Scheuermann').filter(player => player.Position === 'G').reduce((a, b) => a + b.FPts, 0),
+      avg: {
+        0: players2020.filter((el) => el.Status === 'Scheuermann').filter(player => player.Position === 'F').reduce((a, b) => a + b['FP/G'], 0),
+        1: players2020.filter((el) => el.Status === 'Scheuermann').filter(player => player.Position === 'D').reduce((a, b) => a + b['FP/G'], 0),
+        2: players2020.filter((el) => el.Status === 'Scheuermann').filter(player => player.Position === 'G').reduce((a, b) => a + b['FP/G'], 0)
+      },
+      len: {
+        0: players2020.filter((el) => el.Status === 'Scheuermann').filter(player => player.Position === 'F').length,
+        1: players2020.filter((el) => el.Status === 'Scheuermann').filter(player => player.Position === 'D').length,
+        2: players2020.filter((el) => el.Status === 'Scheuermann').filter(player => player.Position === 'G').length,
+      }
     },
     championships: [2017],
     henicups: [],
     seasonFinish: {
-      2015:5,
-      2016:1,
-      2017:2,
+      2015: 5,
+      2016: 1,
+      2017: 2,
       2018: 6,
       2019: 6,
       2020: 3,
-      points: [60,100,92,58,58,80]
+      points: [60, 100, 92, 58, 58, 80]
     },
     playoffFinish: {
       2015: 2,
@@ -1958,7 +2066,7 @@ export const GmData = {
       2017: 1,
       2018: 3,
       2019: 2,
-      points: [90,80,100,83,92]
+      points: [90, 80, 100, 83, 92]
     },
     gmRanking: {
       seasonScore: 75,
@@ -1970,14 +2078,27 @@ export const GmData = {
   Snyder: {
     id: 'Snyder',
     seasons: 10,
-    records : {
+    records: {
       highestPts: '3498 (2018)',
-      bestRec: '11-9-0 (2017)', 
+      bestRec: '11-9-0 (2017)',
     },
     s2020: {
       wins: 9,
       losses: 12,
-      players: players2020.filter((el) => el.Status === 'Snyder')
+      players: players2020.filter((el) => el.Status === 'Snyder').sort((b, a) => a.FPts - b.FPts),
+      0: players2020.filter((el) => el.Status === 'Snyder').filter(player => player.Position === 'F').reduce((a, b) => a + b.FPts, 0),
+      1: players2020.filter((el) => el.Status === 'Snyder').filter(player => player.Position === 'D').reduce((a, b) => a + b.FPts, 0),
+      2: players2020.filter((el) => el.Status === 'Snyder').filter(player => player.Position === 'G').reduce((a, b) => a + b.FPts, 0),
+      avg: {
+        0: players2020.filter((el) => el.Status === 'Snyder').filter(player => player.Position === 'F').reduce((a, b) => a + b['FP/G'], 0),
+        1: players2020.filter((el) => el.Status === 'Snyder').filter(player => player.Position === 'D').reduce((a, b) => a + b['FP/G'], 0),
+        2: players2020.filter((el) => el.Status === 'Snyder').filter(player => player.Position === 'G').reduce((a, b) => a + b['FP/G'], 0)
+      },
+      len: {
+        0: players2020.filter((el) => el.Status === 'Snyder').filter(player => player.Position === 'F').length,
+        1: players2020.filter((el) => el.Status === 'Snyder').filter(player => player.Position === 'D').length,
+        2: players2020.filter((el) => el.Status === 'Snyder').filter(player => player.Position === 'G').length,
+      }
     },
     championships: [],
     henicups: [],
@@ -1988,7 +2109,7 @@ export const GmData = {
       2018: 5,
       2019: 8,
       2020: 7,
-      points: [40,60,58,67,42,40]
+      points: [40, 60, 58, 67, 42, 40]
     },
     playoffFinish: {
       2015: 7,
@@ -1996,7 +2117,7 @@ export const GmData = {
       2017: 3,
       2018: 4,
       2019: 7,
-      points: [40,50,83,75,50]
+      points: [40, 50, 83, 75, 50]
     },
     gmRanking: {
       seasonScore: 51,
@@ -2005,17 +2126,30 @@ export const GmData = {
       teamName: 'Snyder'
     }
   },
-  VarleyJr: {
+  KV: {
     id: 'KV',
     seasons: 10,
-    records : {
+    records: {
       highestPts: '3695 (2020)',
-      bestRec: '14-7-0 (2020)', 
+      bestRec: '14-7-0 (2020)',
     },
     s2020: {
       wins: 7,
       losses: 14,
-      players: players2020.filter((el) => el.Status === 'Varley Jr.')
+      players: players2020.filter((el) => el.Status === 'KV').sort((b, a) => a.FPts - b.FPts),
+      0: players2020.filter((el) => el.Status === 'KV').filter(player => player.Position === 'F').reduce((a, b) => a + b.FPts, 0),
+      1: players2020.filter((el) => el.Status === 'KV').filter(player => player.Position === 'D').reduce((a, b) => a + b.FPts, 0),
+      2: players2020.filter((el) => el.Status === 'KV').filter(player => player.Position === 'G').reduce((a, b) => a + b.FPts, 0),
+      avg: {
+        0: players2020.filter((el) => el.Status === 'KV').filter(player => player.Position === 'F').reduce((a, b) => a + b['FP/G'], 0),
+        1: players2020.filter((el) => el.Status === 'KV').filter(player => player.Position === 'D').reduce((a, b) => a + b['FP/G'], 0),
+        2: players2020.filter((el) => el.Status === 'KV').filter(player => player.Position === 'G').reduce((a, b) => a + b['FP/G'], 0)
+      },
+      len: {
+        0: players2020.filter((el) => el.Status === 'KV').filter(player => player.Position === 'F').length,
+        1: players2020.filter((el) => el.Status === 'KV').filter(player => player.Position === 'D').length,
+        2: players2020.filter((el) => el.Status === 'KV').filter(player => player.Position === 'G').length,
+      }
     },
     championships: [2014, 2015, 2016],
     henicups: [],
@@ -2026,7 +2160,7 @@ export const GmData = {
       2018: 4,
       2019: 7,
       2020: 2,
-      points: [80,90,83,75,50,90]
+      points: [80, 90, 83, 75, 50, 90]
     },
     playoffFinish: {
       2015: 1,
@@ -2034,26 +2168,39 @@ export const GmData = {
       2017: 7,
       2018: 8,
       2019: 7,
-      points: [100,100,50,42,50]
+      points: [100, 100, 50, 42, 50]
     },
     gmRanking: {
       seasonScore: 78,
       playoffScore: 68,
       totalScore: 73,
-      teamName: 'Varley Jr.'
+      teamName: 'Varley Jr'
     }
   },
-  VarleySr: {
+  Sunny: {
     id: 'Sunny',
     seasons: 3,
-    records : {
+    records: {
       highestPts: '3732 (2019)',
-      bestRec: '12-9-0 (2019)', 
+      bestRec: '12-9-0 (2019)',
     },
     s2020: {
       wins: 7,
       losses: 14,
-      players: players2020.filter((el) => el.Status === 'Varley Sr.')
+      players: players2020.filter((el) => el.Status === 'Sunny').sort((b, a) => a.FPts - b.FPts),
+      0: players2020.filter((el) => el.Status === 'Sunny').filter(player => player.Position === 'F').reduce((a, b) => a + b.FPts, 0),
+      1: players2020.filter((el) => el.Status === 'Sunny').filter(player => player.Position === 'D').reduce((a, b) => a + b.FPts, 0),
+      2: players2020.filter((el) => el.Status === 'Sunny').filter(player => player.Position === 'G').reduce((a, b) => a + b.FPts, 0),
+      avg: {
+        0: players2020.filter((el) => el.Status === 'Sunny').filter(player => player.Position === 'F').reduce((a, b) => a + b['FP/G'], 0),
+        1: players2020.filter((el) => el.Status === 'Sunny').filter(player => player.Position === 'D').reduce((a, b) => a + b['FP/G'], 0),
+        2: players2020.filter((el) => el.Status === 'Sunny').filter(player => player.Position === 'G').reduce((a, b) => a + b['FP/G'], 0)
+      },
+      len: {
+        0: players2020.filter((el) => el.Status === 'Sunny').filter(player => player.Position === 'F').length,
+        1: players2020.filter((el) => el.Status === 'Sunny').filter(player => player.Position === 'D').length,
+        2: players2020.filter((el) => el.Status === 'Sunny').filter(player => player.Position === 'G').length,
+      }
     },
     championships: [],
     henicups: [],
@@ -2061,18 +2208,18 @@ export const GmData = {
       2018: 7,
       2019: 3,
       2020: 10,
-      points: [50,83,10]
+      points: [50, 83, 10]
     },
     playoffFinish: {
       2018: 9,
       2019: 5,
-      points: [33,67]
+      points: [33, 67]
     },
     gmRanking: {
       seasonScore: 48,
       playoffScore: 50,
       totalScore: 49,
-      teamName: 'Varley Sr.'
+      teamName: 'Varley Sr'
     }
   }
 }

@@ -192,7 +192,19 @@ min-height:100vh;
 
 .roster-head {
 color: white;
-margin: 0.5em 0
+margin: 0.2em 0;
+}
+
+.roster-cell {
+  color:white !important;
+  border-bottom: 0px !important;
+  font-size: .9rem !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+.MuiListItemText-secondary {
+  color:white !important;
 }
 
 .top-card {
@@ -212,7 +224,16 @@ margin: 0.5em 0
 .MuiTab-root {
   min-width:50px !important
 }
+
 .top-card h2 {
+  color:white;
+}
+
+.top-card h3 {
+  color:white;
+}
+
+.top-card h4 {
   color:white;
 }
 
