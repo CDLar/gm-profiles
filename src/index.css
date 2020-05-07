@@ -168,6 +168,7 @@ min-height:100vh;
 .stats-grid{
   flex:11;
   display:grid;
+  min-Height: 50vh;
   grid-gap:2em;
   margin:2em 7.5em 2em 4em;
   grid-template-columns:minmax(300px, 3fr) minmax(500px, 5fr);
@@ -214,13 +215,60 @@ margin: 0.2em 0;
   align-items: center;
 }
 
-.top-card div {
-  flex:1;
+.star-card {
   display:flex;
   align-items: center;
-  width:100%;
+  flex:1;
   justify-content: center;
+  width:100%;
+  margin-top:-0.5em;
 }
+
+.star-card img {
+  border-Radius:50%;
+  border: 1.5px solid;
+  background-color:white;
+}
+
+.star-card span {
+  color:white;
+  display:block;
+}
+
+.star-card div {
+  text-align:center;
+}
+.star-card div:nth-child(1) {
+  flex:1;
+}
+
+.star-card div:nth-child(2){
+  flex:1;
+  border-right:1px solid white;
+  }
+
+  .star-card div:nth-child(3){
+    flex:1.5;
+    }
+  .star-card div:nth-child(3) span {
+    font-size: 1.4rem;
+    text-align: left;
+    padding-left:.5em;
+    }
+
+.star-card div:nth-child(4){
+  flex:1;
+  }
+
+  .star-card div:nth-child(5){
+    flex:1;
+    }
+
+.star-card div:last-child {
+  flex:2;
+  text-align:center;
+}
+
 .MuiTab-root {
   min-width:50px !important
 }

@@ -1,27 +1,16 @@
 import React from 'react'
+import Roster from './Roster'
 import { GmData } from '../data'
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import Button from '@material-ui/core/Button';
 import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
 
 function Stats({ theme }) {
     const savedGm = JSON.parse(localStorage.getItem('savedGm'))
     const [activeGm, setActiveGm] = React.useState(savedGm || 'Buckley')
-    const [value, setValue] = React.useState(0);
-
-    const handleChange = (event, newValue) => {
-        setValue(newValue);
-    };
+    const records = GmData[activeGm].records.topPlayers
 
     return (
         <div className='stats-wrapper'>
@@ -50,108 +39,85 @@ function Stats({ theme }) {
                     )}
                 </div>
             </div>
-            <div className='stats-grid' style={{ minHeight: '50vh' }}>
-                <div className='roster-card' style={{ backgroundColor: theme.color, borderColor: theme.borderColor }}>
-                    <div style={{ flex: 1, textAlign: 'center', maxHeight: '50px' }}>
-                        <h2 className='roster-head'>Roster</h2>
-                    </div>
-                    <div style={{ flex: 1, }}>
-                        <Tabs
-                            TabIndicatorProps={{ style: { backgroundColor: theme.borderColor } }}
-                            value={value}
-                            onChange={handleChange}
-                            variant='fullWidth'
-                        >
-                            <Tab label="Forward" style={{ color: 'white' }} />
-                            <Tab label="Defense" style={{ color: 'white' }} />
-                            <Tab label="Goalie" style={{ color: 'white' }} />
-                        </Tabs>
-                    </div>
-                    <div style={{ flex: 6, display: 'flex' }}>
-                        <Table size='small'>
-                            <TableHead>
-                                <TableRow>
-                                    <TableCell style={{ color: 'white' }}>Name</TableCell>
-                                    <TableCell style={{ color: 'white' }} align="right">FP/G</TableCell>
-                                    <TableCell style={{ color: 'white' }} align="right">FtPts</TableCell>
-                                </TableRow>
-                            </TableHead>
-                            <TableBody>
-                                {Object.values(GmData[activeGm].s2020.players).map(obj => {
-                                    if (value === 0) {
-                                        return (
-                                            <>
-                                                {obj.Position === 'F' &&
-                                                    <TableRow>
-                                                        <TableCell className='roster-cell' component="th" scope="row">
-                                                            {obj.Name}
-                                                        </TableCell>
-                                                        <TableCell className='roster-cell' align="right">{obj['FP/G'].toFixed(1)}</TableCell>
-                                                        <TableCell className='roster-cell' align="right">{obj.FPts.toFixed(1)}</TableCell>
-                                                    </TableRow>
-                                                }
-                                            </>)
-                                    } else if (value === 1) {
-                                        return (
-                                            <>
-                                                {obj.Position === 'D' &&
-                                                    <TableRow>
-                                                        <TableCell className='roster-cell' component="th" scope="row">
-                                                            {obj.Name}
-                                                        </TableCell>
-                                                        <TableCell className='roster-cell' align="right">{obj['FP/G'].toFixed(1)}</TableCell>
-                                                        <TableCell className='roster-cell' align="right">{obj.FPts.toFixed(1)}</TableCell>
-                                                    </TableRow>
-                                                }
-                                            </>
-                                        )
-                                    } else if (value === 2) {
-                                        return (
-                                            <>
-                                                {obj.Position === 'G' &&
-                                                    <TableRow>
-                                                        <TableCell className='roster-cell' component="th" scope="row">
-                                                            {obj.Name}
-                                                        </TableCell>
-                                                        <TableCell className='roster-cell' align="right">{obj['FP/G'].toFixed(1)}</TableCell>
-                                                        <TableCell className='roster-cell' align="right">{obj.FPts.toFixed(1)}</TableCell>
-                                                    </TableRow>
-
-                                                }
-                                            </>
-                                        )
-                                    }
-                                })}
-
-                                <TableRow>
-                                    <TableCell className='roster-cell' component="th" scope="row" />
-                                    <TableCell className='roster-cell' align="right">
-                                        <b>{(GmData[activeGm].s2020.avg[value] / (GmData[activeGm].s2020.len[value])).toFixed(1)}
-                                        </b> 
-                                    </TableCell>
-                                    <TableCell className='roster-cell' align="right">
-                                        <b>{GmData[activeGm].s2020[value].toFixed(1)}</b>
-                                    </TableCell>
-                                </TableRow>
-                            </TableBody>
-                        </Table>
-
-                    </div>
-                </div>
+            <div className='stats-grid'>
+                <Roster activeGm={activeGm} theme={theme} />
                 <div className='top-card' style={{ backgroundColor: theme.color, borderColor: theme.borderColor }}>
-                    <div>
-                        <h2>#29 | Leon Draisaitl | Edmonton Oilers | 500 Ftps</h2>
-                        <img src='https://assets.nhle.com/mugs/nhl/20192020/EDM/8477934.png' height='99' width='99' alt='pic' />
+                    <div style={{ flex: 0.5, textAlign: 'center', maxHeight: '50px' }}>
+                        <h2 className='roster-head'>Three Stars</h2>
                     </div>
-                    <div>
-                        <h2>#29 | Leon Draisaitl | Edmonton Oilers | 500 Ftps</h2>
-                        <img src='https://assets.nhle.com/mugs/nhl/20192020/EDM/8477934.png' height='99' width='99' alt='pic' />
+                    <div className='star-card'>
+                        <div>
+                            <span>TEMP</span>
+                        </div>
+                        <div>
+                            <span style={{ display: 'inline-block', fontSize: '20px' }}>#</span><span style={{ display: 'inline-block', fontSize: '2rem' }}>{records.first.num}</span>
+                            <span style={{ display: 'block', paddingBottom: '0.3em' }}>{records.first.pos}</span>
+                        </div>
+                        <div >
+                            <span>{records.first.fname}</span>
+                            <span>{records.first.lname}</span>
+                        </div>
+                        <div >
+                            <span style={{ fontSize: '2rem' }}>{records.first.avg}</span>
+                            <span>Avg</span>
+                        </div>
+                        <div >
+                            <span style={{ fontSize: '2rem' }}>{records.first.points}</span>
+                            <span>FtPts</span>
+                        </div>
+                        <div>
+                            <img src={records.first.picURL} height='99' width='99' alt='pic' style={{ borderColor: theme.borderColor }} />
+                        </div>
                     </div>
-                    <div>
-                        <h2>#29 | Leon Draisaitl | Edmonton Oilers | 500 Ftps</h2>
-                        <img src='https://assets.nhle.com/mugs/nhl/20192020/EDM/8477934.png' height='99' width='99' alt='pic' />
+                    <div className='star-card'>
+                        <div>
+                            <span>TEMP</span>
+                        </div>
+                        <div>
+                            <span style={{ display: 'inline-block', fontSize: '20px' }}>#</span><span style={{ display: 'inline-block', fontSize: '2rem' }}>{records.second.num}</span>
+                            <span style={{ display: 'block', paddingBottom: '0.3em' }}>{records.second.pos}</span>
+                        </div>
+                        <div >
+                            <span>{records.second.fname}</span>
+                            <span>{records.second.lname}</span>
+                        </div>
+                        <div >
+                            <span style={{ fontSize: '2rem' }}>{records.second.avg}</span>
+                            <span>Avg</span>
+                        </div>
+                        <div >
+                            <span style={{ fontSize: '2rem' }}>{records.second.points}</span>
+                            <span>FtPts</span>
+                        </div>
+                        <div>
+                            <img src={records.second.picURL} height='99' width='99' alt='pic' style={{ borderColor: theme.borderColor }} />
+                        </div>
                     </div>
-                </div>
+                    <div className='star-card'>
+                        <div>
+                            <span>TEMP</span>
+                        </div>
+                        <div>
+                            <span style={{ display: 'inline-block', fontSize: '20px' }}>#</span><span style={{ display: 'inline-block', fontSize: '2rem' }}>{records.third.num}</span>
+                            <span style={{ display: 'block', paddingBottom: '0.3em' }}>{records.third.pos}</span>
+                        </div>
+                        <div >
+                            <span>{records.third.fname}</span>
+                            <span>{records.third.lname}</span>
+                        </div>
+                        <div >
+                            <span style={{ fontSize: '2rem' }}>{records.third.avg}</span>
+                            <span>Avg</span>
+                        </div>
+                        <div >
+                            <span style={{ fontSize: '2rem' }}>{records.third.points}</span>
+                            <span>FtPts</span>
+                        </div>
+                        <div>
+                            <img src={records.third.picURL} height='99' width='99' alt='pic' style={{ borderColor: theme.borderColor }} />
+                        </div>
+                    </div>
+                </div >
                 <div className='stat-card' style={{ backgroundColor: theme.color, borderColor: theme.borderColor }}>
                     <List>
                         <ListItem>

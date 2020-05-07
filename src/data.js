@@ -1715,19 +1715,31 @@ export const GmData = {
       bestRec: '9-11-0 (2017)',
       topPlayers: {
         first: {
-          name: 'Austin Matthews',
-          number: '#34',
+          fname: 'Austin',
+          lname: 'Matthews',
+          num: '34',
           pos: 'Center',
-          team1: 'Toronto',
-          team2: 'Maple Leafs',
-          points: '338.8',
+          avg: '4.8',
+          points: '339',
           picURL: 'https://img.fantrax.com/si/headshots/NHL/hs03jxy_400_3.png'
         },
         second: {
-
+          fname: 'Max',
+          lname: 'Pacioretty',
+          num: '67',
+          pos: 'Left Wing',
+          avg: '4.1',
+          points: '290',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8474157.jpg'
         },
         third: {
-
+          fname: 'Steven',
+          lname: 'Stamkos',
+          num: '91',
+          pos: 'Center',
+          avg: '4.5',
+          points: '259',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8474564.jpg'
         }
       }
     },
@@ -1777,6 +1789,35 @@ export const GmData = {
     records: {
       highestPts: '3834 (2020)',
       bestRec: '15-5-0 (2017)',
+      topPlayers: {
+        first: {
+          fname: 'Brad',
+          lname: 'Marchand',
+          num: '63',
+          pos: 'Left Wing',
+          avg: '4.4',
+          points: '310',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8473419.jpg'
+        },
+        second: {
+          fname: 'Mark',
+          lname: 'Stone',
+          num: '61',
+          pos: 'Right Wing',
+          avg: '3.7',
+          points: '241',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8475913.jpg'
+        },
+        third: {
+          fname: 'Jeff',
+          lname: 'Petry',
+          num: '26',
+          pos: 'Defence',
+          avg: '3.4',
+          points: '241',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8473507.jpg'
+        }
+      }
     },
     s2020: {
       wins: 11,
@@ -1828,6 +1869,35 @@ export const GmData = {
     records: {
       highestPts: '3818 (2019)',
       bestRec: '17-4-0 (2015)',
+      topPlayers: {
+        first: {
+          fname: 'Andrei',
+          lname: 'Vasilevskiy',
+          num: '88',
+          pos: 'Goalie',
+          avg: '6.1',
+          points: '318',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8476883.jpg'
+        },
+        second: {
+          fname: 'J.T.',
+          lname: 'Miller',
+          num: '9',
+          pos: 'Center',
+          avg: '4.1',
+          points: '283',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8476468.jpg'
+        },
+        third: {
+          fname: 'Sebastian',
+          lname: 'Aho',
+          num: '20',
+          pos: 'Center',
+          avg: '4.1',
+          points: '277',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8478427.jpg'
+        }
+      }
     },
     s2020: {
       wins: 12,
@@ -1879,6 +1949,35 @@ export const GmData = {
     records: {
       highestPts: '3838 (2020)',
       bestRec: '13-8-0 (2015)',
+      topPlayers: {
+        first: {
+          fname: 'David',
+          lname: 'Pastrnak',
+          num: '88',
+          pos: 'Right Wing',
+          avg: '5.5',
+          points: '386',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8477956.jpg'
+        },
+        second: {
+          fname: 'John',
+          lname: 'Carlson',
+          num: '74',
+          pos: 'Defence',
+          avg: '5.2',
+          points: '357',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8474590.jpg'
+        },
+        third: {
+          fname: 'Nikita',
+          lname: 'Kucherov',
+          num: '86',
+          pos: 'Right Wing',
+          avg: '4.4',
+          points: '302',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8476453.jpg'
+        }
+      }
     },
     s2020: {
       wins: 10,
@@ -1930,6 +2029,35 @@ export const GmData = {
     records: {
       highestPts: '3601 (2020)',
       bestRec: '9-12-0 (2018)',
+      topPlayers: {
+        first: {
+          fname: 'Connor',
+          lname: 'McDavid',
+          num: '97',
+          pos: 'Center',
+          avg: '5.4',
+          points: '345',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8478402.jpg'
+        },
+        second: {
+          fname: 'Artemi',
+          lname: 'Panarin',
+          num: '10',
+          pos: 'Left Wing',
+          avg: '4.6',
+          points: '318',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8478550.jpg'
+        },
+        third: {
+          fname: 'Jordan',
+          lname: 'Binnington',
+          num: '50',
+          pos: 'Goalie',
+          avg: '5.2',
+          points: '259',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8476412.jpg'
+        }
+      }
     },
     s2020: {
       wins: 7,
@@ -1981,6 +2109,35 @@ export const GmData = {
     records: {
       highestPts: '4052 (2020)',
       bestRec: '15-6-0 (2020)',
+      topPlayers: {
+        first: {
+          fname: 'Patrick',
+          lname: 'Kane',
+          num: '88',
+          pos: 'Right Wing',
+          avg: '4.3',
+          points: '300',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8474141.jpg'
+        },
+        second: {
+          fname: 'Alex',
+          lname: 'Pietrangelo',
+          num: '27',
+          pos: 'Defence',
+          avg: '4.1',
+          points: '285',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8474565.jpg'
+        },
+        third: {
+          fname: 'Mark',
+          lname: 'Scheifele',
+          num: '55',
+          pos: 'Center',
+          avg: '3.8',
+          points: '271',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8476460.jpg'
+        }
+      }
     },
     s2020: {
       wins: 15,
@@ -2030,6 +2187,35 @@ export const GmData = {
     records: {
       highestPts: '4011 (2019)',
       bestRec: '15-6-0 (2016)',
+      topPlayers: {
+        first: {
+          fname: 'Roman',
+          lname: 'Josi',
+          num: '59',
+          pos: 'Defence',
+          avg: '4.8',
+          points: '333',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8474600.jpg'
+        },
+        second: {
+          fname: 'Connor',
+          lname: 'Hellebuyck',
+          num: '37',
+          pos: 'Left Wing',
+          avg: '5.7',
+          points: '328',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8476945.jpg'
+        },
+        third: {
+          fname: 'Mika',
+          lname: 'Zibanejad',
+          num: '93',
+          pos: 'Center',
+          avg: '5.7',
+          points: '324',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8476459.jpg'
+        }
+      }
     },
     s2020: {
       wins: 7,
@@ -2081,6 +2267,35 @@ export const GmData = {
     records: {
       highestPts: '3498 (2018)',
       bestRec: '11-9-0 (2017)',
+      topPlayers: {
+        first: {
+          fname: 'Leon',
+          lname: 'Draisaitl',
+          num: '29',
+          pos: 'Center',
+          avg: '5.4',
+          points: '385',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8477934.jpg'
+        },
+        second: {
+          fname: 'Alex',
+          lname: 'Ovechkin',
+          num: '8',
+          pos: 'Left Wing',
+          avg: '4.8',
+          points: '327',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8471214.jpg'
+        },
+        third: {
+          fname: 'Tom',
+          lname: 'Wilson',
+          num: '43',
+          pos: 'Right Wing',
+          avg: '3.5',
+          points: '236',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8476880.jpg'
+        }
+      }
     },
     s2020: {
       wins: 9,
@@ -2132,6 +2347,35 @@ export const GmData = {
     records: {
       highestPts: '3695 (2020)',
       bestRec: '14-7-0 (2020)',
+      topPlayers: {
+        first: {
+          fname: 'Nathan',
+          lname: 'MacKinnon',
+          num: '29',
+          pos: 'Center',
+          avg: '5.1',
+          points: '349',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8477492.jpg'
+        },
+        second: {
+          fname: 'Victor',
+          lname: 'Hedman',
+          num: '77',
+          pos: 'Defence',
+          avg: '4.3',
+          points: '283',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8475167.jpg'
+        },
+        third: {
+          fname: 'Kris',
+          lname: 'Letang',
+          num: '58',
+          pos: 'Defence',
+          avg: '4.1',
+          points: '249',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8471724.jpg'
+        }
+      }
     },
     s2020: {
       wins: 7,
@@ -2183,6 +2427,35 @@ export const GmData = {
     records: {
       highestPts: '3732 (2019)',
       bestRec: '12-9-0 (2019)',
+      topPlayers: {
+        first: {
+          fname: 'Kyle',
+          lname: 'Connor',
+          num: '81',
+          pos: 'Left Wing',
+          avg: '4.0',
+          points: '283',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8478398.jpg'
+        },
+        second: {
+          fname: 'Carey',
+          lname: 'Price',
+          num: '31',
+          pos: 'Goalie',
+          avg: '4.5',
+          points: '258',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8471679.jpg'
+        },
+        third: {
+          fname: 'Frederik',
+          lname: 'Andersen',
+          num: '31',
+          pos: 'Goalie',
+          avg: '4.9',
+          points: '255',
+          picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8475883.jpg'
+        }
+      }
     },
     s2020: {
       wins: 7,
