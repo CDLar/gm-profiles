@@ -1713,6 +1713,10 @@ export const GmData = {
     records: {
       highestPts: '3410 (2020)',
       bestRec: '9-11-0 (2017)',
+      fRank: '3rd',
+      dRank: '6th',
+      gRank: '6th',
+      pRank: '9th',
       topPlayers: {
         first: {
           fname: 'Austin',
@@ -1789,6 +1793,10 @@ export const GmData = {
     records: {
       highestPts: '3834 (2020)',
       bestRec: '15-5-0 (2017)',
+      fRank: '9th',
+      dRank: '3rd',
+      gRank: '5th',
+      pRank: '4th',
       topPlayers: {
         first: {
           fname: 'Brad',
@@ -1869,6 +1877,10 @@ export const GmData = {
     records: {
       highestPts: '3818 (2019)',
       bestRec: '17-4-0 (2015)',
+      fRank: '1st',
+      dRank: '9th',
+      gRank: '2nd',
+      pRank: '7th',
       topPlayers: {
         first: {
           fname: 'Andrei',
@@ -1949,6 +1961,10 @@ export const GmData = {
     records: {
       highestPts: '3838 (2020)',
       bestRec: '13-8-0 (2015)',
+      fRank: '5th',
+      dRank: '1st',
+      gRank: '4th',
+      pRank: '3rd',
       topPlayers: {
         first: {
           fname: 'David',
@@ -2029,6 +2045,10 @@ export const GmData = {
     records: {
       highestPts: '3601 (2020)',
       bestRec: '9-12-0 (2018)',
+      fRank: '7th',
+      dRank: '7th',
+      gRank: '1st',
+      pRank: '6th',
       topPlayers: {
         first: {
           fname: 'Connor',
@@ -2109,6 +2129,10 @@ export const GmData = {
     records: {
       highestPts: '4052 (2020)',
       bestRec: '15-6-0 (2020)',
+      fRank: '8th',
+      dRank: '8th',
+      gRank: '10th',
+      pRank: '1st',
       topPlayers: {
         first: {
           fname: 'Patrick',
@@ -2187,6 +2211,10 @@ export const GmData = {
     records: {
       highestPts: '4011 (2019)',
       bestRec: '15-6-0 (2016)',
+      fRank: '4th',
+      dRank: '2nd',
+      gRank: '7th',
+      pRank: '2nd',
       topPlayers: {
         first: {
           fname: 'Roman',
@@ -2267,6 +2295,10 @@ export const GmData = {
     records: {
       highestPts: '3498 (2018)',
       bestRec: '11-9-0 (2017)',
+      fRank: '2nd',
+      dRank: '10th',
+      gRank: '9th',
+      pRank: '8th',
       topPlayers: {
         first: {
           fname: 'Leon',
@@ -2347,6 +2379,10 @@ export const GmData = {
     records: {
       highestPts: '3695 (2020)',
       bestRec: '14-7-0 (2020)',
+      fRank: '6th',
+      dRank: '4th',
+      gRank: '8th',
+      pRank: '5th',
       topPlayers: {
         first: {
           fname: 'Nathan',
@@ -2427,6 +2463,10 @@ export const GmData = {
     records: {
       highestPts: '3732 (2019)',
       bestRec: '12-9-0 (2019)',
+      fRank: '10th',
+      dRank: '5th',
+      gRank: '3rd',
+      pRank: '10th',
       topPlayers: {
         first: {
           fname: 'Kyle',
