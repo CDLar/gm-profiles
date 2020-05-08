@@ -170,12 +170,30 @@ min-height:100vh;
   display:grid;
   min-Height: 50vh;
   grid-gap:2em;
-  margin:2em 7.5em 2em 4em;
+  margin:2em 7.5em 1em 4em;
   grid-template-columns:minmax(300px, 3fr) minmax(500px, 5fr);
   grid-template-rows:minmax(450px,3fr) minmax(150px,1fr);
   grid-template-areas: 
   'roster top'
   'stat stat';
+}
+
+@media (max-width: 1100px) {
+  .stats-grid {
+    margin:2em 5.5em 1em 2em;
+    grid-template-columns:minmax(650px, auto);
+    grid-template-rows:repeat(2,minmax(32em, auto));
+    grid-template-areas:
+      'roster'
+      'top'
+      'stat';
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-box {
+    display:none !important;
+  }
 }
 
 .stats-grid div {
@@ -299,7 +317,7 @@ margin: 0.2em 0;
   flex-wrap:wrap;
   height:auto;
   flex:2;
-  border:1.5px solid
+  border:1.5px solid;
 }
 
 .settings-box {
