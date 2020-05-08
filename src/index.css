@@ -181,7 +181,7 @@ min-height:100vh;
 @media (max-width: 1100px) {
   .stats-grid {
     margin:2em 5.5em 1em 2em;
-    grid-template-columns:minmax(650px, auto);
+    grid-template-columns:minmax(500px, auto);
     grid-template-rows:repeat(2,minmax(32em, auto));
     grid-template-areas:
       'roster'
@@ -190,10 +190,32 @@ min-height:100vh;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
   .nav-box {
     display:none !important;
   }
+
+  .icon-wrapper {
+    display:none;
+  }
+
+  .stats-grid {
+    margin:2em 2em 1em 2em;
+  }
+
+  .star-card div:nth-child(4){
+    display:none;
+    }
+}
+
+@media (max-width: 570px) {
+  .stats-grid {
+    grid-template-columns:minmax(300px, auto);
+  }
+
+  .star-card div:nth-child(2){
+    display:none;
+    }
 }
 
 .stats-grid div {
