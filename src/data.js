@@ -2229,7 +2229,7 @@ export const GmData = {
           fname: 'Connor',
           lname: 'Hellebuyck',
           num: '37',
-          pos: 'Left Wing',
+          pos: 'Goalie',
           avg: '5.7',
           points: '328',
           picURL: 'https://nhl.bamcontent.com/images/headshots/current/168x168/8476945.jpg'

@@ -61,7 +61,7 @@ export const themes = {
         team: 'Columbus Blue Jackets',
         id: 'cmb',
         color: '#002654',
-        borderColor: 'CE1126',
+        borderColor: '#CE1126',
         backgroundImage: 'url(https://i.imgur.com/0NgAl0v.jpg)'
     },
     dalTheme: {
