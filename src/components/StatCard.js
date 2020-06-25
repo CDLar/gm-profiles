@@ -2,8 +2,6 @@ import React from 'react'
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import Tooltip from './Tooltip'
-import { IoMdInformationCircleOutline } from 'react-icons/io'
 
 function StatCard({ stats, theme }) {
     return (

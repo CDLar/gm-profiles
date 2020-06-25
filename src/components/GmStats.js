@@ -13,7 +13,7 @@ export default function GmStats() {
     const savedTheme = JSON.parse(localStorage.getItem('theme'))
     const [theme, setTheme] = React.useState(savedTheme || themes.wpgTheme)
     const [slide, setSlide] = React.useState(false)
-    const toggleSlide = () => setSlide((slider) => slider === true ? false : true);
+    const toggleSlide = () => setSlide((slider) => !slider);
 
     const myCardGrid = (props) => {
         return (
@@ -26,7 +26,6 @@ export default function GmStats() {
             <Stats theme={theme} {...props} />
         );
     }
-
     return (
         <Router>
             <div className='wrapper' style={theme}>
