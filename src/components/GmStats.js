@@ -32,10 +32,10 @@ export default function GmStats() {
                 <div className='icon-wrapper'>
                     <IoMdSettings size={50} onClick={toggleSlide} className='settings' />
                     <Link to='/stats'>
-                        <RiNumbersLine size={50} className='data-icon' />
+                        <RiNumbersLine size={50} color={theme.color} className='data-icon' />
                     </Link>
                     <Link to='/'>
-                        <AiOutlineIdcard size={50} className='card-icon' />
+                        <AiOutlineIdcard size={50} color={theme.color} className='card-icon' />
                     </Link>
                     <div id='settings-box' className={`settings-box ${slide ? "slide-in" : "slide-out"}`} style={{ backgroundColor: theme.color, color: 'white', fontSize: '5rem' }}>
                         <Settings theme={theme} themes={themes} setTheme={setTheme} toggleSlide={toggleSlide} />

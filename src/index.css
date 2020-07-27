@@ -23,6 +23,11 @@ position:fixed;
   margin-right:10px;
   position:fixed;
   }
+
+  .data-icon:visited{
+    text-decoration:none;
+    color:green;
+  }
   
   .card-icon{
     right:0;
@@ -358,9 +363,10 @@ margin: 0.2em 0;
   display:flex;
   flex-wrap:rows;
   justify-content:center;
-  background-color:white;
   min-height: 100vh;
   height:auto;
+  background-image: url('./components/hockeyRink.jpg');
+  background-size: cover;
 }
 
 .team-button {
@@ -373,18 +379,17 @@ margin: 0.2em 0;
   margin:10px;
   justify-content: center;
   align-items:center;
+  cursor:pointer;
 }
 
 .team-nav {
 display:flex;
 flex-direction:column;
-height: 100%;
 width: 100%;
 }
 
 .nav-btn{
   flex: 1;
-  min-height: 4.375em;
   min-width: 11.875em;
 }
 
