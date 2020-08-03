@@ -47,7 +47,7 @@ export default function Card({ seasonScore, playoffScore, totalScore, teamName, 
               <div className='card-a'>Henicups</div>
               <div className='card-b'>{heni.length}</div>
               <div className='card-c'>
-                <Tooltip text={heni.length > 0 ? heni.join(", ") : 'No Henicups'}>
+                <Tooltip text={heni.length > 0 ? heni.join(", ") : 'No Henicuapmps'}>
                   <IoMdInformationCircleOutline className='info-icon' />
                 </Tooltip>
               </div>
