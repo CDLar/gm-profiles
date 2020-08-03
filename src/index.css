@@ -26,7 +26,7 @@ position:fixed;
 
   .data-icon:visited{
     text-decoration:none;
-    color:green;
+    color: inherit;
   }
   
   .card-icon{

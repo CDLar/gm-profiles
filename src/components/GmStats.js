@@ -30,7 +30,7 @@ export default function GmStats() {
         <Router>
             <div className='wrapper' style={theme}>
                 <div className='icon-wrapper'>
-                    <IoMdSettings size={50} onClick={toggleSlide} className='settings' />
+                    <IoMdSettings size={50}  onClick={toggleSlide} className='settings' />
                     <Link to='/stats'>
                         <RiNumbersLine size={50} color={theme.color} className='data-icon' />
                     </Link>
